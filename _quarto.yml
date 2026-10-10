@@ -10,10 +10,15 @@ website:
       - text: Lezioni
         menu:
            - href: presentazioni/RipassoI.qmd      
-           - href: presentazioni/Equazioni.qmd           
-           - href: presentazioni/IngressoTerza.qmd      
+             target: _blank
+           - href: presentazioni/Equazioni.qmd   
+             target: _blank        
+           - href: presentazioni/IngressoTerza.qmd
+             target: _blank      
            - href: presentazioni/DisequazioneFratta.qmd  
+             target: _blank
            - href: presentazioni/SezioneAurea.qmd
+             target: _blank
           
 
 format:

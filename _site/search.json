@@ -7,13 +7,6 @@
     "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site"
-  },
-  {
     "objectID": "presentazioni/EsperimentiMentali.html",
     "href": "presentazioni/EsperimentiMentali.html",
     "title": "Gli Esperimenti Mentali e il Gran Navilio di Galileo",
@@ -94,85 +87,85 @@
     "objectID": "presentazioni/IngressoTerza.html#domanda-1-equidistante",
     "href": "presentazioni/IngressoTerza.html#domanda-1-equidistante",
     "title": "Test d’ingresso",
-    "section": "",
-    "text": "Il punto sull’asse x equidistante dai punti A(4;1) e B(2;3) è:\n\nnon esiste\n(0; 1)\n(2; 0)\n(1; 0)"
+    "section": "Domanda 1: equidistante",
+    "text": "Domanda 1: equidistante\nIl punto sull’asse \\(x\\) equidistante dai punti A(4;1) e B(2;3) è:\n\nnon esiste\n(0; 1)\n(2; 0)\n(1; 0)"
   },
   {
     "objectID": "presentazioni/IngressoTerza.html#domanda-2-parallela",
     "href": "presentazioni/IngressoTerza.html#domanda-2-parallela",
     "title": "Test d’ingresso",
     "section": "Domanda 2: parallela",
-    "text": "Domanda 2: parallela\nLa retta parallela a 3x-y = 5 e passante per P(0;1) è:\n\ny = 3x + 1\ny = - \\dfrac{1}{3} x + 1\ny = 3x - 1\ny = - \\dfrac{1}{3} x - 1"
+    "text": "Domanda 2: parallela\nLa retta parallela a \\(3x-y = 5\\) e passante per P(0;1) è:\n\n\\(y = 3x + 1\\)\n\\(y = - \\dfrac{1}{3} x + 1\\)\n\\(y = 3x - 1\\)\n\\(y = - \\dfrac{1}{3} x - 1\\)"
   },
   {
     "objectID": "presentazioni/IngressoTerza.html#domanda-3-retta",
     "href": "presentazioni/IngressoTerza.html#domanda-3-retta",
     "title": "Test d’ingresso",
     "section": "Domanda 3: retta",
-    "text": "Domanda 3: retta\n\n\n\n\nQuale di queste equazioni è l’equazione della retta in figura?\n\ny = -2x + 2\ny = x + 1\ny = 2x + 2\ny = -2x + 1"
+    "text": "Domanda 3: retta\n\n\n\n\nQuale di queste equazioni è l’equazione della retta in figura?\n\n\\(y = -2x + 2\\)\n\\(y = x + 1\\)\n\\(y = 2x + 2\\)\n\\(y = -2x + 1\\)"
   },
   {
     "objectID": "presentazioni/IngressoTerza.html#domanda-4-triangoli",
     "href": "presentazioni/IngressoTerza.html#domanda-4-triangoli",
     "title": "Test d’ingresso",
     "section": "Domanda 4: triangoli",
-    "text": "Domanda 4: triangoli\n\n\nL’area del triangolo di vertici A(-1;-2), B(5;1) e C(-1;3) è:\n\n\\frac{15}{2}\n-2\n\\frac{15}{3}\n15"
+    "text": "Domanda 4: triangoli\n\n\nL’area del triangolo di vertici A(-1;-2), B(5;1) e C(-1;3) è:\n\n\\(\\frac{15}{2}\\)\n-2\n\\(\\frac{15}{3}\\)\n15"
   },
   {
     "objectID": "presentazioni/IngressoTerza.html#domanda-5-sistema",
     "href": "presentazioni/IngressoTerza.html#domanda-5-sistema",
     "title": "Test d’ingresso",
     "section": "Domanda 5: sistema",
-    "text": "Domanda 5: sistema\nIl sistema \\begin{cases} 3x + 5y - 1 = 0 \\\\ 6x + 10y - 3 = 0 \\end{cases} rappresenta due rette:\n\nincidenti\ncoincidenti\nparallele\nperpendicolari"
+    "text": "Domanda 5: sistema\nIl sistema \\(\\begin{cases} 3x + 5y - 1 = 0 \\\\ 6x + 10y - 3 = 0 \\end{cases}\\) rappresenta due rette:\n\nincidenti\ncoincidenti\nparallele\nperpendicolari"
   },
   {
     "objectID": "presentazioni/IngressoTerza.html#domanda-6-radicali",
     "href": "presentazioni/IngressoTerza.html#domanda-6-radicali",
     "title": "Test d’ingresso",
     "section": "Domanda 6: radicali",
-    "text": "Domanda 6: radicali\nDati i radicali \\sqrt{5}, \\sqrt[3]{9}, \\sqrt[4]{13}, una sola delle seguenti relazioni è corretta:\n\n\\sqrt{5}&lt; \\sqrt[3]{9}&lt; \\sqrt[4]{13}\n\\sqrt[4]{13} \\leq \\sqrt[3]{9} \\leq \\sqrt{5}\n\\sqrt[3]{9} \\leq \\sqrt{5} \\leq \\sqrt[4]{13}\n\\sqrt[3]{9} &lt; \\sqrt{5} &lt; \\sqrt[4]{13}"
+    "text": "Domanda 6: radicali\nDati i radicali \\(\\sqrt{5}\\), \\(\\sqrt[3]{9}\\), \\(\\sqrt[4]{13}\\), una sola delle seguenti relazioni è corretta:\n\n\\(\\sqrt{5}&lt; \\sqrt[3]{9}&lt; \\sqrt[4]{13}\\)\n\\(\\sqrt[4]{13} \\leq \\sqrt[3]{9} \\leq \\sqrt{5}\\)\n\\(\\sqrt[3]{9} \\leq \\sqrt{5} \\leq \\sqrt[4]{13}\\)\n\\(\\sqrt[3]{9} &lt; \\sqrt{5} &lt; \\sqrt[4]{13}\\)"
   },
   {
     "objectID": "presentazioni/IngressoTerza.html#domanda-7-prodotto-di-radicali",
     "href": "presentazioni/IngressoTerza.html#domanda-7-prodotto-di-radicali",
     "title": "Test d’ingresso",
     "section": "Domanda 7: prodotto di radicali",
-    "text": "Domanda 7: prodotto di radicali\nA che cosa equivale 8^{\\frac{2}{5}} \\cdot 2^{\\frac{3}{10}} \\cdot 4^{-\\frac{3}{5}}?\n\n\\sqrt{2^3}\n\\frac{\\sqrt{2}}{4}\n\\sqrt[10]{2^3}\n8^{-\\frac{4}{5}}"
+    "text": "Domanda 7: prodotto di radicali\nA che cosa equivale \\(8^{\\frac{2}{5}} \\cdot 2^{\\frac{3}{10}} \\cdot 4^{-\\frac{3}{5}}\\)?\n\n\\(\\sqrt{2^3}\\)\n\\(\\frac{\\sqrt{2}}{4}\\)\n\\(\\sqrt[10]{2^3}\\)\n\\(8^{-\\frac{4}{5}}\\)"
   },
   {
     "objectID": "presentazioni/IngressoTerza.html#domanda-8-uguaglianze",
     "href": "presentazioni/IngressoTerza.html#domanda-8-uguaglianze",
     "title": "Test d’ingresso",
     "section": "Domanda 8: uguaglianze",
-    "text": "Domanda 8: uguaglianze\nQuale di queste uguaglianze è vera?\n\n\\sqrt[10]{(-6)^2} = \\sqrt[5]{-6}\n\\sqrt[10]{(-6)^{2}}=\\sqrt[8]{-6}\n\\sqrt[10]{(-6)^{2}}=\\sqrt[8]{6}\n\\sqrt[10]{(-6)^2} = \\sqrt[5]{6}"
+    "text": "Domanda 8: uguaglianze\nQuale di queste uguaglianze è vera?\n\n\\(\\sqrt[10]{(-6)^2} = \\sqrt[5]{-6}\\)\n\\(\\sqrt[10]{(-6)^{2}}=\\sqrt[8]{-6}\\)\n\\(\\sqrt[10]{(-6)^{2}}=\\sqrt[8]{6}\\)\n\\(\\sqrt[10]{(-6)^2} = \\sqrt[5]{6}\\)"
   },
   {
     "objectID": "presentazioni/IngressoTerza.html#domanda-9-c.e.",
     "href": "presentazioni/IngressoTerza.html#domanda-9-c.e.",
     "title": "Test d’ingresso",
     "section": "Domanda 9: C.E.",
-    "text": "Domanda 9: C.E.\nPer quale valore o quali valori di a la frazione \\dfrac{3a}{a^2-4} perde significato?\n\na = 0\na = 4 e a = -4\na = -3\na = 2 e a = -2"
+    "text": "Domanda 9: C.E.\nPer quale valore o quali valori di \\(a\\) la frazione \\(\\dfrac{3a}{a^2-4}\\) perde significato?\n\n\\(a = 0\\)\n\\(a = 4\\) e \\(a = -4\\)\n\\(a = -3\\)\n\\(a = 2\\) e \\(a = -2\\)"
   },
   {
     "objectID": "presentazioni/IngressoTerza.html#domanda-10-quadrato-di-binomio",
     "href": "presentazioni/IngressoTerza.html#domanda-10-quadrato-di-binomio",
     "title": "Test d’ingresso",
     "section": "Domanda 10: quadrato di binomio",
-    "text": "Domanda 10: quadrato di binomio\nQuale tra i seguenti polinomi NON è il quadrato di un binomio?\n\n16x^4 + 8x^2 + 1\ny^2 - 32y + 16\n\\frac{1}{4}-x + x^2\n25x^2 + 10xy^2 + y^4"
+    "text": "Domanda 10: quadrato di binomio\nQuale tra i seguenti polinomi NON è il quadrato di un binomio?\n\n\\(16x^4 + 8x^2 + 1\\)\n\\(y^2 - 32y + 16\\)\n\\(\\frac{1}{4}-x + x^2\\)\n\\(25x^2 + 10xy^2 + y^4\\)"
   },
   {
     "objectID": "presentazioni/IngressoTerza.html#domanda-11-scomposizioni",
     "href": "presentazioni/IngressoTerza.html#domanda-11-scomposizioni",
     "title": "Test d’ingresso",
     "section": "Domanda 11: Scomposizioni",
-    "text": "Domanda 11: Scomposizioni\nQuale delle seguenti uguaglianze è vera?\n\na^3 - 3a^2 - 1 - 3a = (a - 1)^3\n8x - 1 - 16x^2 = -(1 - 4x)^2\n9a^9 - b^4 = (3a^3 + b^2)(3a^3 - b^2)\n3m^2 + n + nm - 3m = (3m + n)(n - 1)"
+    "text": "Domanda 11: Scomposizioni\nQuale delle seguenti uguaglianze è vera?\n\n\\(a^3 - 3a^2 - 1 - 3a = (a - 1)^3\\)\n\\(8x - 1 - 16x^2 = -(1 - 4x)^2\\)\n\\(9a^9 - b^4 = (3a^3 + b^2)(3a^3 - b^2)\\)\n\\(3m^2 + n + nm - 3m = (3m + n)(n - 1)\\)"
   },
   {
     "objectID": "presentazioni/IngressoTerza.html#domanda-12-raccoglimento-parziale",
     "href": "presentazioni/IngressoTerza.html#domanda-12-raccoglimento-parziale",
     "title": "Test d’ingresso",
     "section": "Domanda 12: Raccoglimento parziale",
-    "text": "Domanda 12: Raccoglimento parziale\nUsando il raccoglimento parziale è possibile scomporre il polinomio\n2x + 6y - 5ax - 15ay\nin un solo dei seguenti modi. Quale?\n\n(x + 3y)(2 + 5a)\n(x + 3y)(2 - 5a)\n(x - 3y)(2 + 5a)\n(x - 3y)(2 - 5a)"
+    "text": "Domanda 12: Raccoglimento parziale\nUsando il raccoglimento parziale è possibile scomporre il polinomio\n\\[2x + 6y - 5ax - 15ay\\]\nin un solo dei seguenti modi. Quale?\n\n\\((x + 3y)(2 + 5a)\\)\n\\((x + 3y)(2 - 5a)\\)\n\\((x - 3y)(2 + 5a)\\)\n\\((x - 3y)(2 - 5a)\\)"
   },
   {
     "objectID": "presentazioni/test.html",
@@ -402,57 +395,57 @@
     "objectID": "presentazioni/SezioneAurea.html#cosè-un-rapporto",
     "href": "presentazioni/SezioneAurea.html#cosè-un-rapporto",
     "title": "Sezione aurea",
-    "section": "",
-    "text": "In matematica, un rapporto è semplicemente un confronto tra due quantità o lunghezze.\nImmagina di dividere un segmento in due parti: il rapporto ci dice quante volte una parte sta nell’altra o nell’intero.\nÈ il modo in cui mettiamo in relazione le dimensioni di ciò che ci circonda.\n\n\n\nEsempi di rapporto"
+    "section": "Cos’è un “Rapporto”?",
+    "text": "Cos’è un “Rapporto”?\nIn matematica, un rapporto è semplicemente un confronto tra due quantità o lunghezze.\nImmagina di dividere un segmento in due parti: il rapporto ci dice quante volte una parte sta nell’altra o nell’intero.\nÈ il modo in cui mettiamo in relazione le dimensioni di ciò che ci circonda.\n\nEsempi di rapporto"
   },
   {
     "objectID": "presentazioni/SezioneAurea.html#il-rapporto-aureo-il-numero-di-dio",
     "href": "presentazioni/SezioneAurea.html#il-rapporto-aureo-il-numero-di-dio",
     "title": "Sezione aurea",
-    "section": "",
-    "text": "Il rapporto aureo è una proporzione speciale che l’occhio umano percepisce come estremamente armoniosa e bella.\n\nViene indicato con la lettera greca Φ (phi) e vale circa 1,618.\nSi trova ovunque: nelle conchiglie, nei petali dei fiori e persino nella forma delle galassie."
+    "section": "Il Rapporto Aureo: Il “Numero di Dio”",
+    "text": "Il Rapporto Aureo: Il “Numero di Dio”\nIl rapporto aureo è una proporzione speciale che l’occhio umano percepisce come estremamente armoniosa e bella.\n\nViene indicato con la lettera greca Φ (phi) e vale circa 1,618.\nSi trova ovunque: nelle conchiglie, nei petali dei fiori e persino nella forma delle galassie."
   },
   {
     "objectID": "presentazioni/SezioneAurea.html#il-video",
     "href": "presentazioni/SezioneAurea.html#il-video",
     "title": "Sezione aurea",
-    "section": "",
-    "text": "Se non vedi il video Clicca qui"
+    "section": "Il video",
+    "text": "Il video\n\nSe non vedi il video Clicca qui"
   },
   {
     "objectID": "presentazioni/SezioneAurea.html#lequazione-come-si-trova",
     "href": "presentazioni/SezioneAurea.html#lequazione-come-si-trova",
     "title": "Sezione aurea",
-    "section": "",
-    "text": "Nonostante il nome complicato, l’idea è semplice.\nSe hai un rettangolo, a (il lato più lungo) e b (il lato più corto) sono in rapporto aureo se ritagliando il quadrato di lato b si ottiene un rettangolo che ha lo stesso rapporto fra lato lungo e lato corto.\nQuindi, se \\Phi=\\frac{a}{b}, allora b = \\Phi \\cdot a, ma anche \\frac{b}{b-a}=\\Phi. Si ottiene:\n\\Phi = \\frac{b}{\\Phi b-b} = \\frac{\\not b}{\\not b(\\Phi-1)}"
+    "section": "L’Equazione: Come si trova?",
+    "text": "L’Equazione: Come si trova?\nNonostante il nome complicato, l’idea è semplice.\nSe hai un rettangolo, a (il lato più lungo) e b (il lato più corto) sono in rapporto aureo se ritagliando il quadrato di lato b si ottiene un rettangolo che ha lo stesso rapporto fra lato lungo e lato corto.\nQuindi, se \\(\\Phi=\\frac{a}{b}\\), allora \\(b = \\Phi \\cdot a\\), ma anche \\(\\frac{b}{b-a}=\\Phi\\). Si ottiene:\n\\[\\Phi = \\frac{b}{\\Phi b-b} = \\frac{\\not b}{\\not b(\\Phi-1)}\\]"
   },
   {
     "objectID": "presentazioni/SezioneAurea.html#lequazione",
     "href": "presentazioni/SezioneAurea.html#lequazione",
     "title": "Sezione aurea",
-    "section": "",
-    "text": "Quindi il rapporto aureo sarà il numero che otteniamo calcolando:\n\\phi=\\frac{1}{\\phi-1}"
+    "section": "L’equazione",
+    "text": "L’equazione\nQuindi il rapporto aureo sarà il numero che otteniamo calcolando:\n\\[\\phi=\\frac{1}{\\phi-1}\\]"
   },
   {
     "objectID": "presentazioni/SezioneAurea.html#il-rinascimento-larte-della-proporzione",
     "href": "presentazioni/SezioneAurea.html#il-rinascimento-larte-della-proporzione",
     "title": "Sezione aurea",
-    "section": "",
-    "text": "Gli artisti del Rinascimento erano ossessionati dall’equilibrio e usavano il rapporto aureo per rendere le loro opere “divine”.\n\nLeonardo da Vinci: Lo ha usato nell’Uomo Vitruviano per mostrare le proporzioni perfette del corpo umano.\n\n\n\nVitruviano\n\n\n\nSandro Botticelli: Opere come la Nascita di Venere seguono questi schemi geometrici per trasmettere armonia.\n\n\n\nNascita di Venere\n\n\n\nMichelangelo: In capolavori come il Tondo Doni, la composizione è studiata per guidare l’occhio in modo naturale e bilanciato.\n\n\n\nTondo Doni"
+    "section": "Il Rinascimento: L’Arte della Proporzione",
+    "text": "Il Rinascimento: L’Arte della Proporzione\nGli artisti del Rinascimento erano ossessionati dall’equilibrio e usavano il rapporto aureo per rendere le loro opere “divine”."
   },
   {
     "objectID": "presentazioni/SezioneAurea.html#la-fotografia-oltre-la-regola-dei-terzi",
     "href": "presentazioni/SezioneAurea.html#la-fotografia-oltre-la-regola-dei-terzi",
     "title": "Sezione aurea",
-    "section": "",
-    "text": "In fotografia, il rapporto aureo serve a comporre immagini più dinamiche e sofisticate rispetto alla solita “regola dei terzi”.\n\nLa Spirale Aurea: Deriva dai numeri di Fibonacci e aiuta a posizionare il soggetto nel punto di massimo interesse, guidando lo sguardo lungo una curva naturale.\n\n\n\nHenri Cartier-Bresson\n\n\n\nL’Istante Decisivo: Fotografi come Henri Cartier-Bresson usavano un “senso della geometria” istintivo per catturare momenti perfetti in cui tutto era in ordine.\n\n\n\nAttimo decisivo"
+    "section": "5. La Fotografia: Oltre la Regola dei Terzi",
+    "text": "5. La Fotografia: Oltre la Regola dei Terzi\nIn fotografia, il rapporto aureo serve a comporre immagini più dinamiche e sofisticate rispetto alla solita “regola dei terzi”."
   },
   {
     "objectID": "presentazioni/SezioneAurea.html#fotografia",
     "href": "presentazioni/SezioneAurea.html#fotografia",
     "title": "Sezione aurea",
-    "section": "",
-    "text": "In fotografia la sezione aurea offre la possibilità di sotituire la “griglia” dei terzi con una griglia ancora più armoniosa all’occhio umano.\n\n\n\nRegola aurea"
+    "section": "Fotografia",
+    "text": "Fotografia\nIn fotografia la sezione aurea offre la possibilità di sotituire la “griglia” dei terzi con una griglia ancora più armoniosa all’occhio umano.\n\n\n\nRegola aurea"
   },
   {
     "objectID": "presentazioni/RipassoI.html",
