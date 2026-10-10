@@ -1,0 +1,214 @@
+---
+title: "Disequazioni fratte"
+format:
+  revealjs:
+    incremental: true  
+    theme: sky
+    chalkboard: 
+      buttons: true    # Mostra i tastini della lavagna in basso a sinistra
+      toggleNotesButton: true
+    # Altre opzioni utili per la didattica
+    slide-number: true
+    preview-links: auto 
+---
+## Un esempio di disequazione fratta
+
+$$\frac{x^2+4x+4}{12x-4-9x^2}\geq 0$$
+
+con un piccolo aggiustamento diventa
+
+$$\frac{x^2+4x+4}{-9x^2+12x-4}\geq 0$$
+
+così entrambe i polinomi di secondo grado diventano del tipo $ax^2+bx+c$.
+
+## Prima di tutto il C.E.
+
+Quindi studiamo il denominatore:
+
+$-9x^2+12x-4\neq 0 \rightarrow -(9x^2-12x+4) \neq 0$
+
+che è l'opposto del quadrato:
+$$-(3x-2)^2 \neq 0$$
+
+Quindi perché il denominatore non sia 0,  $x \neq \frac{2}{3}$
+
+Si sta parlando di equazioni, non di disequazioni, togliere il - (moltiplicare per -1) è concesso. 
+
+## ...e se non me ne accorgo, che è un quadrato?
+
+Calcolo il discriminante:
+$$b^2-4ac= 12^2 -4 \cdot(-9) \cdot(-4) = 144 - 144 = 0$$
+
+Le soluzioni sono due coincidenti. 
+$$x_{1,2} \neq \frac{12 \pm 0}{2 \cdot (-9)} \neq \frac{12}{-18} \neq-\frac{2}{3}$$ 
+
+## Studio numeratore e denominatore
+
+Cominciamo col denominatore. 
+
+La parabola è "triste" e raggiunge lo 0 nell'unico punto $x=-\frac{2}{3}$. 
+
+Quindi il polinomio, eccetto in $-\frac{2}{3}$, è sempre negativo.
+
+## La parabola al denominatore
+
+![Denominatore](/img/Denominatore.png)
+
+## Il numeratore
+Passiamo al numeratore
+
+$$x^2+4x+4 >0$$
+$$(x+2)^2 >0$$
+
+Questo polinomio è sempre maggiore di 0, tranne per $x+2 = 0$, cioè $x=-2$, dove il polinomio è uguale a 0.
+
+## ...e se non me ne accorgo?
+
+Cerco gli 0 dell'equazione corrispondente:
+
+$$x^2+4x+4 = 0$$
+Calcolo il discriminante:
+$$b^2-4ac= 4^2 -4 \cdot 4 \cdot 1 =16-16=0$$
+
+Le soluzioni sono due coincidenti. La parabola è "allegra", quindi rimane sempre positiva, tranne per:
+$$x= \frac{-4  \pm 0}{2 \cdot 1} =\frac{-4}{2}=-2$$
+
+## La parabola al numeratore
+
+![Numeratore](/img/Numeratore.png)
+
+## Mettiamo tutto insieme
+
+![Schema](/img/segni.jpg)
+
+La frazione algebrica è sempre negativa, tranne che in $x=-2$ dove è uguale a 0! In $\frac{2}{3}$ non è definita.
+
+## ...la soluzione alla fine!
+
+$$\frac{x^2+4x+4}{12x-4-9x^2}\geq 0$$
+
+è soddisfatta solo quando è uguale a 0, cioè per 
+
+$$x = -2$$ 
+
+# Un altro esempio
+
+$$\frac{x^2-3x+5}{x^2-9} \geq 0$$
+
+## Prima di tutto il C.E.
+
+$$x^2-9\neq 0$$
+
+quindi 
+$$x^2 \neq 9 $$
+$$ x \neq \pm \sqrt{9}$$
+$$x \neq \pm 3$$
+
+## Studio il denominatore 
+
+Considerando che il denominatore è $x^2-9 > 0$
+
+- $a =1 >0$ (la parabola è allegra, ha la concavità rivolta verso il basso)
+
+- passa per $y=0$ nei punti $x=-3$ e $x=3$ la posso disegnare così
+
+. . .
+
+
+![Bozzetto](/img/Parabola-33.png)
+
+
+## La parabola al denominatore
+
+```{ojs}
+a = 1
+b = 0
+c = -9
+segno = "P(x) > 0"
+// Calcolo della funzione e dei punti di intersezione
+f = (x) => a * x**2 + b * x + c;
+
+// Generazione dati per la curva
+data = {
+  const points = [];
+  for (let x = -10; x <= 10; x += 0.1) {
+    points.push({x: x, y: f(x)});
+  }
+  return points;
+}
+
+// Calcolo discriminante e radici per evidenziare i punti sull'asse x
+delta = b**2 - 4 * a * c;
+roots = {
+  if (delta < 0) return [];
+  if (delta === 0) return [-b / (2 * a)];
+  return [(-b - Math.sqrt(delta)) / (2 * a), (-b + Math.sqrt(delta)) / (2 * a)];
+}
+
+// Logica per determinare la soluzione sull'asse x
+// Creiamo un array di segmenti spessi per l'asse X
+solutionSegments = {
+  const step = 0.05;
+  const sol = [];
+  for (let x = -10; x <= 10; x += step) {
+    const val = f(x);
+    const satisfies = (segno === "P(x) > 0") ? val > 0 : val < 0;
+    if (satisfies) {
+      sol.push({x: x, y: 0});
+    }
+  }
+  return sol;
+}
+
+Plot.plot({
+  grid: true,
+  x: {domain: [-7, 7]},
+  y: {domain: [-10, 10]},
+  marks: [
+    // Area Gialla (Semipiano risolutivo)
+    Plot.areaY(data, {
+      x: "x", 
+      y: "y", 
+      fill: "yellow", 
+      fillOpacity: 0.3,
+      // Filtra l'area in base al segno scelto
+      filter: d => (segno === "P(x) > 0" ? d.y > 0 : d.y < 0)
+    }),
+
+    // Asse X (linea base)
+    Plot.ruleY([0]),
+    Plot.ruleX([0]),
+
+    // Tratto SPESSO sull'asse X per la soluzione
+    Plot.dot(solutionSegments, {x: "x", y: "y", r: 2, fill: "red"}),
+
+    // La Parabola
+    Plot.line(data, {x: "x", y: "y", strokeWidth: 2, stroke: "blue"}),
+
+    // Punti di intersezione (Radici)
+    Plot.dot(roots, {x: d => d, y: 0, r: 5, fill: "black", stroke: "white"}),
+    
+    // Testo per le radici
+    Plot.text(roots, {x: d => d, y: 0, text: d => d.toFixed(2), dy: -15})
+  ]
+})
+```
+I valori di x per cui $x^2-9>0$ sono:
+$$x < -3 \vee x > 3$$
+
+## Studio il numeratore
+
+
+Studio l'equazione associata, $x^2-3x+5 = 0$: 
+$$\Delta = b^2-4ac = (-3)^2-4 \cdot 1 \cdot 5 <0$$
+
+La parabola associata **non incontra** mai l'asse x! Poiché $a>0$, il polinomio è **sempre positivo**.
+
+![Altro bozzetto](/img/SemprePos.png)
+
+## Metto tutto insieme
+
+![Studio dei segni](/img/Segni2.png)
+
+La frazione è positiva per 
+$$x<-3 \vee x>3$$

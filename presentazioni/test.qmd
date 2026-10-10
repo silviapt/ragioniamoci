@@ -1,0 +1,12 @@
+---
+title: "Prova"
+format: revealjs
+---
+
+## Prima slide
+
+Questa è la prima slide.
+
+## Seconda slide
+
+Questa è la seconda slide.

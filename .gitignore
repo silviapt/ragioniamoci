@@ -1,1 +1,19 @@
+# Quarto
 /.quarto/
+/_site/
+/public/
+/objects/
+/knitr/
+
+# Python (Ambienti virtuali)
+.venv/
+env/
+venv/
+ENV/
+
+# Sistema operativo e IDE
+.DS_Store
+.vscode/
+.Rproj.user
+.Rhistory
+.RData

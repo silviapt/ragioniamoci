@@ -1,6 +1,5 @@
 project:
   type: website
-  output-dir: public
 lang: it
 website:
   title: "Ragioniamoci!"
@@ -8,7 +7,14 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - text: Lezioni
+        menu:
+           - href: presentazioni/RipassoI.qmd      
+           - href: presentazioni/Equazioni.qmd           
+           - href: presentazioni/IngressoTerza.qmd      
+           - href: presentazioni/DisequazioneFratta.qmd  
+           - href: presentazioni/SezioneAurea.qmd
+          
 
 format:
   html:

@@ -1,0 +1,105 @@
+---
+title: "Gli Esperimenti Mentali e il Gran Navilio di Galileo"
+subtitle: "Dalla deduzione ideale al Principio di Relatività Galileiana"
+format:
+  revealjs:
+    incremental: true  
+    theme: sky
+    chalkboard: 
+      buttons: true    # Mostra i tastini della lavagna in basso a sinistra
+      toggleNotesButton: true
+    # Altre opzioni utili per la didattica
+    slide-number: true
+    preview-links: auto 
+---
+
+## Introduzione agli Esperimenti Mentali
+
+- **Cos'è un *gedanken-experiment*?**
+  - Un esperimento concettuale basato sulla coerenza logica anziché sull'osservazione diretta immediata.
+  - Permette di analizzare situazioni ideali "ripulite" dagli attriti e dalle perturbazioni del mondo reale.
+- **Il ruolo nel metodo galileiano:**
+  - Permette di isolare le leggi fisiche fondamentali mediante la modellizzazione e l'astrazione matematica.
+
+---
+## Confronto con Aristotele
+
+Anche Aristotele utilizzava il processo del **ragionamento deduttivo**.
+
+Ma, per indagare le cause del moto Aristotele utilizza gli assiomi, ovvero principi assunti come veri senza che vengano dimostrati, come il seguente:
+
+::: {.fragment}
+se un corpo è in movimento, necessariamente ci deve essere qualcosa che lo mantiene in moto.
+:::
+
+## Esempi Celebri di Esperimenti Mentali Galileiani
+
+- **La Caduta dei Gravi nel Vuoto:**
+  - Aristotele sosteneva che i corpi pesanti cadessero più velocemente di quelli leggeri.
+  - Galileo dimostra logicamente e con piani inclinati che, eliminando la resistenza dell'aria, tutti i corpi cadono con la stessa accelerazione.
+  
+  {{< video https://www.youtube.com/watch?v=E43-CfukEgs >}}
+
+
+- **I Piani Inclinati a "V" e l'Inerzia:**
+  - Immaginando due piani inclinati congiunti, una sfera lasciata da un'altezza $h$ risale fino alla stessa altezza.
+  - Se il secondo piano diventa orizzontale e privo di attrito, la sfera continuerà a muoversi all'infinito a velocità costante.
+
+
+
+## Il "Gran Navilio": Contesto Storico e Opera
+
+- **L'Opera di riferimento:**
+  - Introdotto nel *Dialogo sopra i due massimi sistemi del mondo* (1632).
+- **Il problema cosmologico di fondo:**
+  - Gli aristotelici sostenevano che se la Terra si muovesse, dovremmo percepire un vento fortissimo e i corpi cadendo verrebbero lasciati indietro.
+- **Lo scopo dell'esperimento:**
+  - Dimostrare che il movimento uniforme della Terra non produce effetti percettibili negli esperimenti meccanici condotti sulla sua superficie.
+
+
+
+## Sotto Coperta della Grande Nave
+
+- **L'Ambientazione:**
+  - Galileo invita ad entrare nella rinfusa stanza sotto coperta di una grande nave.
+- **Gli elementi dell'esperimento:**
+  - Mosche e altri piccoli animali che volano.
+  - Un vaso d'acqua con piccoli pesci che nuotano.
+  - Un secchio sospeso da cui cadono gocce d'acqua in un recipiente sottostante.
+  - Persone che saltano in tutte le direzioni.
+
+
+
+## La Nave in Moto Rettilineo Uniforme
+
+- **La condizione fondamentale:**
+  La nave deve muoversi a velocità costante, in linea retta e senza scossoni (moto rettilineo uniforme).
+
+## La Nave in Moto Rettilineo Uniforme
+
+- **Cosa si osserva sotto coperta?**
+  - Le gocce d'acqua cadono esattamente nel recipiente sottostante senza deviare verso la poppa.
+  - Le mosche continuano a volare indifferentemente verso prua o verso poppa.
+  - I pesci nuotano senza sforzo verso qualsiasi lato della vasca.
+  - Saltando verso poppa non si copre una distanza maggiore rispetto al salto verso prua.
+
+
+
+## Il Principio di Relatività Galileiana
+
+- **Invarianza dei Fenomeni Meccanici:**
+  Tutti i fenomeni meccanici si svolgono nello stesso identico modo sia con la nave ferma che con la nave in moto uniforme.
+- **Assenza di Riferimenti Privilegiati:**
+  Nessun esperimento meccanico eseguito all'interno del sistema chiuso permette di stabilire se il sistema sia fermo o in movimento.
+- **Eredità del Moto:**
+  Ogni oggetto all'interno del sistema "eredita" la velocità uniforme della nave stessa.
+
+
+## Conclusione e Impatto Scientifico
+
+- **Difesa del Sistema Copernicano:**
+  - Spiega perché sulla Terra in rotazione non percepiamo il movimento globale negli esperimenti locali.
+- **Fondamento della Dinamica Moderna:**
+  - Anticipa la formalizzazione dei sistemi di riferimento inerziali e il primo principio della dinamica di Newton.
+  - Pone le basi della fisica classica che condurrà fino alla relatività di Einstein.
+

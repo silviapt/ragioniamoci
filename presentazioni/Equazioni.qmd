@@ -1,0 +1,137 @@
+---
+title: "Equazioni"
+format:
+  revealjs:
+    incremental: true  
+    theme: sky
+    chalkboard: 
+      buttons: true    # Mostra i tastini della lavagna in basso a sinistra
+      toggleNotesButton: true
+    # Altre opzioni utili per la didattica
+    slide-number: true
+    preview-links: auto 
+---
+
+## Identità {auto-animate="true"}
+
+Un'uguaglianza dove compaiono espressioni letterale, verificata per qualsiasi valore attribuito alle lettere contenute nelle espressioni.
+
+$$a(a+b)=a^2+ab$$
+
+## Identità {auto-animate="true"}
+
+Un'uguaglianza dove compaiono espressioni letterale, verificata per qualsiasi valore attribuito alle lettere contenute nelle espressioni.
+
+ $$ \underbrace{a(a+b)}_\text{primo membro}=\underbrace{a^2+ab}_{\text{secondo membro}}$$
+
+## Equazione
+
+Un'uguaglianza in cui compaiono espressioni letterali per le quali si cercano i valori da attribuire a una o più lettere, che la rendono vera.
+
+:::{.incremental}
+- $x+1=14$ il valore che cerchiamo, *x*, si dice **incognita**
+- $x+y+1=1$ le **incognite** sono *x* e *y*
+:::
+
+## Soluzioni di un 'equazione
+
+Sono i valori che, sostituito all'**incognita** *x*. verificano l'uguaglianza.
+
+Questi valori sono le **soluzioni**. L'in
+
+L'insieme dei valori fra i quali si cercano le soluzioni, si chiama **insieme di definizione** o **dominio**.
+
+## Esempio di dominio
+
+In una classe di 24 studenti il numero di studenti di sesso femminile è il doppio di quelli di sesso femminile. Quanti sono i ragazzi? 
+
+Se chiamo $x$ il numero dei ragazzi, l'equazione risolvente è:
+
+$$ x+2x = 24$$
+
+$x$ può essere solo un numero intero positivo, quindi $x \in \mathbb{N}$ 
+
+## Esempio di dominio
+
+Luca ha comprato 5 schiacciate ripiene e ha speso 16 euro. Quanto costa una schiacciata
+
+Se chiamo $x$ il costo di una schiacciata, l'equazione risolvente è:
+
+$$ 5x = 16$$
+
+$x$ può essere un numero positivo qualsiasi, quindi $x \in \mathbb{R^+}$ 
+
+## Tipi di equazioni
+
+Secondo la *posizione* dell'incognita *x*:
+
+- **intera:** se è presente solo al numeratore;
+
+- **fratta** se è presente anche al denominatore.
+
+## Intere vs fratte
+::::{.columns}
+
+:::{.column}
+$$3x+1=4$$
+
+$$\frac{1}{x}+1=2x$$
+
+$$\frac{x}{4}+1=2x$$
+
+
+:::
+
+:::{.column}
+
+::: {.fragment .fade-in}
+$$\text{intera}$$
+:::
+
+::: {.fragment .fade-in}
+$$\text{fratta}$$
+:::
+
+::: {.fragment .fade-in}
+$$\text{intera}$$
+:::
+
+:::
+
+::::
+
+## Numeriche vs letterali
+
+Secondo le *lettere* presenti nell'equazione:
+
+- **numerica:** se oltre all'incognita contiene solo numeri;
+
+- **letterale** se oltre all'incognita contiene altre lettere come coefficienti. Queste lettere si chiamano *parametri*,
+
+
+## Soluzioni
+
+Secondo il numero di *soluzioni*:
+
+- **determinata:** se ha un numero *finito* di soluzioni;
+
+- **indeterminata:** se ha *infinite* soluzioni;
+
+- **impossibile:** se ha *nessuna* soluzioni.
+
+## Equazione in forma normale
+
+L'equazione è scritta come un *polinomio* uguagliato a 0.
+
+$$x^3-3x^2-4x\underbrace{+3}_\text{termine noto}=0 $$
+
+Il **grado** dell'equazione è il grado del polinomio ridotto in forma normale.
+
+# Equazioni equivalenti
+
+Due equazioni:
+
+- definite nello stesso insieme;
+- contenenti le stesse incognite;
+- con lo stesso **insieme di soluzioni**. 
+

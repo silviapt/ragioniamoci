@@ -4,5 +4,26 @@
   },
   "about.qmd": {
     "about.html": "e3bb594a"
+  },
+  "presentazioni/Equazioni.qmd": {
+    "Equazioni.html": "c8aa4c3a"
+  },
+  "presentazioni/DisequazioneFratta.qmd": {
+    "DisequazioneFratta.html": "bd158c35"
+  },
+  "presentazioni/test.qmd": {
+    "test.html": "b37d57fe"
+  },
+  "presentazioni/SezioneAurea.qmd": {
+    "SezioneAurea.html": "e4eee49c"
+  },
+  "presentazioni/IngressoTerza.qmd": {
+    "IngressoTerza.html": "5d84cd8c"
+  },
+  "presentazioni/RipassoI.qmd": {
+    "RipassoI.html": "c7390438"
+  },
+  "presentazioni/EsperimentiMentali.qmd": {
+    "EsperimentiMentali.html": "5706ac3d"
   }
 }

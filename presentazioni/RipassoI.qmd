@@ -1,0 +1,105 @@
+---
+title: "Ripasso I"
+format: 
+    revealjs:
+      theme: sky
+      slide-number: true
+      incremental: true
+      chalkboard:
+        buttons: true
+        toggleNotesButton: true  
+---
+
+
+
+## A. Monomi – riscaldamento
+
+1. Riduci:
+$$
+3a^2b-5a^2b+2a^2b
+$$
+2. Calcola:
+$$
+(-2a^2b)(3ab^2)
+$$
+3. Calcola:
+$$
+\frac{12a^3b^2}{-4ab}
+$$
+
+## B. Entriamo nel vivo
+
+::: {layout-ncol=2}
+### Polinomi
+4. Semplifica:
+$(3x^2-2x+5)+(x^2+4x-3)$
+5. Sviluppa:
+ $3x(x^2-2x+4)$
+
+### Prodotti notevoli
+6. Sviluppa mentalmente:
+$(x+3)^2$
+7. Sviluppa:
+$(2x-5)^2$
+8. Calcola con un prodotto notevole:
+$(3x+2)(3x-2)$
+:::
+
+## 9. Senza svolgere completamente il calcolo, stabilisci se il risultato è corretto:
+
+$$
+(x-4)^2=x^2-16
+$$
+
+Spiega brevemente.
+
+
+## Confronto
+
+Confrontatevi a coppie per 5 minuti con tre regole:
+
+1. dovete confrontare tutti i risultati;
+2. quando non siete d'accordo, devono individuare **il passaggio** in cui nasce la differenza;
+3. non potete semplicemente dire «è sbagliato»: dovete spiegare perché.
+
+
+## Quale esercizio vi ha fatto perdere più tempo?
+
+
+## La sfida: “Quale prodotto notevole si nasconde?”
+
+$$
+(x+5)^2
+$$
+$$
+(2x-3)^2
+$$
+$$
+(4x+1)(4x-1)
+$$
+$$
+(3a-2b)^2
+$$
+
+**Non dovete svolgerli**.
+
+Dovete soltanto dire quale struttura riconoscete:
+
+* quadrato di binomio;
+* quadrato di binomio;
+* somma per differenza;
+* quadrato di binomio.
+
+## Ora risolveteli
+
+## Vero o falso? Non svolgete tutto: trovate l'errore.
+
+$$
+(2x+3)^2=4x^2+9
+$$
+
+e
+
+$$
+(x+2)(x-2)=x^2+4
+$$
