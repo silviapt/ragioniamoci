@@ -1,6 +1,7 @@
 project:
   type: website
-
+  output-dir: public
+lang: it
 website:
   title: "Ragioniamoci!"
   navbar:
@@ -11,6 +12,8 @@ website:
 
 format:
   html:
+    link-external-newwindow: true # Apre automaticamente i link esterni/slide in nuove schede
+    layout: max-width
     theme:
       - cosmo
       - brand
@@ -18,4 +21,7 @@ format:
     toc: true
     html-math-method: katex
 
+execute:
+  echo: false    # Nasconde il codice in tutto il sito
+  warning: false # Nasconde eventuali messaggi di errore tecnici
 
