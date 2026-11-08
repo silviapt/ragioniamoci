@@ -1,0 +1,137 @@
+---
+title: "Lente d'ingrandimento"
+format: 
+  revealjs:
+    theme: sky
+    smaller: true
+    scrollable: true
+    chalkboard: 
+      buttons: true    # Mostra i tastini della lavagna in basso a sinistra
+      toggleNotesButton: true
+    # Altre opzioni utili per la didattica
+    slide-number: true
+    preview-links: auto
+---
+
+<!-- SLIDE 1: COPERTINA E ISTRUZIONI -->
+## Diagnosticare la struttura di un polinomio
+
+**Come funziona:**
+
+:::{.incremental}
+1. 🔍 **Dettaglio 1:** Osserva il primo pezzo. Cosa ipotizzi?
+
+2. 🔎 **Dettaglio 2:** Scopri un altro elemento. Cosa puoi escludere?
+
+3. 🖼️ **Quadro Completo:** Conferma la struttura ed esegui la scomposizione.
+:::
+
+---
+
+<!-- ESERCIZIO 1 -->
+## Esercizio 1
+
+<div class="fragment" data-fragment-index="1">
+
+### 1. Primo Dettaglio
+$$ 2a^3 \dots $$
+*Che informazioni ti dà questo termine iniziale?*
+</div>
+
+<div class="fragment" data-fragment-index="2">
+
+### 2. Secondo Dettaglio
+$$ 2a^3 - 8ab^2 \dots $$
+*Vedi 2 termini e due lettere diverse. Cosa puoi iniziare a escludere?*
+</div>
+
+<div class="fragment" data-fragment-index="3">
+
+### 3. Quadro Completo
+$$ 2a^3 - 8ab^2 $$
+
+> **Scomposizione:**
+> $$ 2a(a^2 - 4b^2) = 2a(a - 2b)(a + 2b) $$
+</div>
+
+
+<!-- ESERCIZIO 2 -->
+## Esercizio 2
+
+<div class="fragment" data-fragment-index="1">
+
+### 1. Primo Dettaglio
+$$ x^2 \dots $$
+*È un quadrato perfetto. Quali strutture iniziano così?*
+</div>
+
+<div class="fragment" data-fragment-index="2">
+
+### 2. Secondo Dettaglio
+$$ x^2 - 10xy \dots $$
+*Il secondo termine è un doppio prodotto negative. Cosa ti aspetti come 3° termine?*
+</div>
+
+<div class="fragment" data-fragment-index="3">
+
+### 3. Quadro Completo
+$$ x^2 - 10xy + 25y^2 $$
+
+> **Scomposizione:**
+> $$ (x - 5y)^2 $$
+</div>
+
+
+<!-- ESERCIZIO 3 -->
+## Esercizio 3
+
+<div class="fragment" data-fragment-index="1">
+
+### 1. Primo Dettaglio
+$$ 3x^3 \dots $$
+*Non è un quadrato perfetto. Qual è la prima mossa probabile?*
+</div>
+
+<div class="fragment" data-fragment-index="2">
+
+### 2. Secondo Dettaglio
+$$ 3x^3 - 12x^2 + 12x \dots $$
+*Ci sono 3 termini e la $x$ compare ovunque. Che fattore raccogli?*
+</div>
+
+<div class="fragment" data-fragment-index="3">
+
+### 3. Quadro Completo
+$$ 3x^3 - 12x^2 + 12x $$
+
+> **Scomposizione:**
+> $$ 3x(x^2 - 4x + 4) = 3x(x - 2)^2 $$
+</div>
+
+
+
+<!-- ESERCIZIO 4 -->
+## Esercizio 4
+
+<div class="fragment" data-fragment-index="1">
+
+### 1. Primo Dettaglio
+$$ x^3 - 2x^2 \dots $$
+*Riconosci un parziale tra i primi due?*
+</div>
+
+<div class="fragment" data-fragment-index="2">
+
+### 2. Secondo Dettaglio
+$$ x^3 - 2x^2 - 9x + 18 \dots $$
+*Quattro termini in totale. Che tecnica di raggruppamento si delinea?*
+</div>
+
+<div class="fragment" data-fragment-index="3">
+
+### 3. Quadro Completo
+$$ x^3 - 2x^2 - 9x + 18 $$
+
+> **Scomposizione:**
+> $$ x^2(x - 2) - 9(x - 2) = (x - 2)(x^2 - 9) = (x - 2)(x - 3)(x + 3) $$
+</div>

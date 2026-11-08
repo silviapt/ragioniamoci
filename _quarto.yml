@@ -19,18 +19,41 @@ website:
              target: _blank
            - href: presentazioni/SezioneAurea.qmd
              target: _blank
-          
-
+      - text: Schemi
+        href: schemi/Equa.qmd   
+  sidebar:
+    - id: schemi-sidebar
+      title: Schemi
+      href: schemi/
+      contents: schemi/*
+      style: "docked"
+      search: true           
 format:
   html:
     link-external-newwindow: true # Apre automaticamente i link esterni/slide in nuove schede
     layout: max-width
     theme:
       - cosmo
-      - brand
     css: styles.css
     toc: true
     html-math-method: katex
+    other-links:
+      - text: Stampa / Salva in PDF
+        icon: printer
+        href: "#print"
+        id: print-button
+    include-in-header:
+      text: |
+        <script>
+        document.addEventListener("DOMContentLoaded", function() {
+          document.querySelectorAll('a[href="#print"]').forEach(function(el) {
+              el.addEventListener('click', function(e) {
+              e.preventDefault();
+              window.print();
+            });
+          });
+        });
+        </script>
 
 execute:
   echo: false    # Nasconde il codice in tutto il sito

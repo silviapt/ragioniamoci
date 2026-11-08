@@ -1,0 +1,22 @@
+---
+title: "Risolvere una disequazione di secondo grado"
+format: html
+order: 20
+---
+
+## Disequazione di secondo grado
+
+Per studiare una disequazione di secondo grado, va prima trasformata nella forma normale:
+$$ax^2+bx+c \gtreqless 0$$
+
+Per risolverla, dobbiamo per prima cosa verificare il segno del coefficiente $a$ e calcolare il $\Delta=b^2-4ac$ e le eventuali soluzioni dell'equazione associata $ax^2+bx+c=0$.
+
+|a| $\Delta$| soluzioni eq. ass.| P(x)>0| P(x)=0| P(x)<0|
+|:-:|:----:|:----:|:----:|:----:|:----:|
+|$a>0$|$\Delta>0$| 2($x_1, x_2$) |$x<x_1 \vee x>x_2$|$x_1,x_2$| $x_1<x<x_2$|
+||$\Delta=0$| 1($x_1$) |$\forall x \in R-\{x_1\}$|$x_1$| $\not\exists x \in R$|
+||$\Delta<0$| 0 |$\forall x \in R$|$\not\exists x \in R$| $\not\exists x \in  R$|
+|$a<0$|$\Delta>0$| 2($x_1, x_2$) |$x_1<x<x_2$|$x_1,x_2$| $x<x_1 \vee x>x_2$|
+|     |$\Delta=0$| 1($x_1$) |$\not\exists x \in  R$|$x_1$| $\forall x \in R-\{x_1\}$|
+|     |$\Delta<0$| 0 |$\not\exists x \in   R$|$\not\exists x \in R$| $\forall x \in R$|
+

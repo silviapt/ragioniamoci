@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Il laboratorio dei colori – Equazioni fratte</title>
+<style>
+:root{--ink:#20302c;--muted:#65736d;--paper:#f4f4ee;--panel:#fffefa;--line:#d9dfd8;--accent:#286b50}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.5 system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+main{max-width:980px;margin:auto;padding:28px 18px 48px}
+h1{font-size:clamp(1.7rem,4vw,2.3rem);line-height:1.15;margin:0 0 7px}
+h2{font-size:1.15rem;margin:0 0 12px}
+p{margin:8px 0 14px}
+.muted,.small{color:var(--muted)}.small{font-size:.9rem}
+.panel{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:20px;margin-top:17px;box-shadow:0 4px 18px #1d35200a}
+.tabs{display:flex;gap:8px;flex-wrap:wrap;margin:16px 0}
+.tabs button{background:#e7ece7;color:var(--ink)}
+.tabs button[aria-pressed=true]{background:var(--accent);color:white}
+button{border:0;border-radius:9px;padding:10px 14px;font:600 .95rem system-ui;cursor:pointer}
+button:focus-visible,input:focus-visible{outline:3px solid #85bca0;outline-offset:2px}
+.swatches{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+.swatch{min-width:0}.color{height:115px;border-radius:12px;border:1px solid #0002;background:#aaa}
+.swatch strong{display:block;margin-top:8px}.swatch small{color:var(--muted)}
+.equation{background:#f0f4ef;border-radius:12px;padding:14px 16px;text-align:center;font:clamp(1rem,2.5vw,1.2rem) Georgia,serif;overflow-wrap:anywhere;margin:12px 0}
+.controls{display:grid;grid-template-columns:1fr 125px;gap:14px;align-items:center;margin:14px 0 4px}
+input[type=range]{width:100%;accent-color:var(--accent)}
+input[type=number]{width:100%;padding:9px;border:1px solid var(--line);border-radius:9px;font:inherit}
+.status{padding:12px 14px;border-radius:10px;margin-top:14px;font-weight:600}
+.ok{background:#e4f3e9;color:#205b38}.near{background:#fff2d8;color:#765016}.off{background:#f5e9e5;color:#81412f}
+.actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:12px}
+.primary{background:var(--accent);color:white}.secondary{background:#e8eee9;color:var(--ink)}
+details{margin-top:16px}summary{cursor:pointer;font-weight:650}
+@media(max-width:620px){.swatches{grid-template-columns:1fr}.color{height:85px}.controls{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<main>
+<h1>Il laboratorio dei colori</h1>
+<p class="muted">Tre piccole sfide di miscelazione virtuale per esercitarsi con le equazioni fratte. Scegli un esercizio, correggi la miscela e confronta il risultato con il campione.</p>
+
+<nav class="tabs" aria-label="Scegli esercizio">
+<button type="button" data-ex="0" aria-pressed="true">1 · Verde</button>
+<button type="button" data-ex="1" aria-pressed="false">2 · Arancione</button>
+<button type="button" data-ex="2" aria-pressed="false">3 · Viola</button>
+</nav>
+
+<section class="panel">
+<h2 id="exerciseTitle">Esercizio 1 – Il verde del paesaggio</h2>
+<p id="story"></p>
+<p id="question"><strong>Quanto pigmento devi aggiungere?</strong></p>
+<div class="equation" id="equation"></div>
+</section>
+
+<section class="panel">
+<h2>Confronta i colori</h2>
+<div class="swatches">
+<div class="swatch"><div class="color" id="targetColor"></div><strong>Colore campione</strong><small id="targetRecipe"></small></div>
+<div class="swatch"><div class="color" id="mixColor"></div><strong>La tua miscela</strong><small id="mixRecipe"></small></div>
+<div class="swatch"><div class="color" id="addedColor"></div><strong>Pigmento da aggiungere</strong><small id="addedName"></small></div>
+</div>
+<h2 style="margin-top:22px">Correggi la miscela</h2>
+<div class="controls">
+<input id="slider" type="range" min="0" max="12" step="0.25" value="0" aria-label="Quantità di pigmento aggiunta">
+<label>Quantità <input id="amount" type="number" min="0" max="30" step="0.25" value="0"></label>
+</div>
+<p class="small">Puoi usare il cursore oppure inserire direttamente un numero. Le quantità sono espresse in parti convenzionali.</p>
+<div class="equation" id="ratio"></div>
+<div id="feedback" class="status off" role="status" aria-live="polite">La miscela non corrisponde ancora al campione.</div>
+<div class="actions">
+<button class="primary" id="solutionBtn" type="button">Mostra soluzione</button>
+<button class="secondary" id="resetBtn" type="button">Azzera questo esercizio</button>
+</div>
+<div id="solution" hidden>
+<h2 style="margin-top:18px">Risoluzione</h2>
+<p id="solutionText"></p>
+<div class="equation" id="solutionEquation"></div>
+<p id="solutionConclusion"></p>
+</div>
+</section>
+
+<section class="panel">
+<h2>Una nota sul laboratorio virtuale</h2>
+<p>Il programma usa tre pigmenti digitali con proprietà definite e un modello sottrattivo semplificato. Le miscele sono quindi riproducibili: quando il rapporto tra i due pigmenti raggiunge quello indicato dalla ricetta, il colore visualizzato coincide con il campione.</p>
+<p class="small">La simulazione è didattica: non pretende di prevedere esattamente il comportamento di specifiche tempere o acrilici reali.</p>
+<details><summary>Nota per il docente: il modello matematico</summary>
+<p>Per ogni pigmento sono assegnati coefficienti virtuali di assorbimento K/S nei canali rosso, verde e blu. I coefficienti vengono combinati in proporzione alle quantità e convertiti in riflettanza con una relazione ispirata al modello di Kubelka–Munk. È un modello illustrativo, non una calibrazione colorimetrica.</p>
+</details>
+</section>
+</main>
+
+<script>
+(() => {
+  // Coefficienti virtuali K/S (R, G, B) scelti per ottenere tinte leggibili.
+  const pigment = {
+    blu:    {label:"Blu",    ks:[5.8,3.0,0.22]},
+    giallo: {label:"Giallo", ks:[0.18,0.28,5.2]},
+    rosso:  {label:"Rosso",  ks:[0.18,5.4,5.0]}
+  };
+
+  // In ciascun esercizio si aggiunge il secondo pigmento.
+  // x è intero in tutte e tre le soluzioni: 7, 4 e 3.
+  const exercises = [
+    {
+      title:"Esercizio 1 – Il verde del paesaggio",
+      story:"Un'artista ha preparato un verde con 3 parti di blu e 5 parti di giallo. La ricetta del verde campione richiede 1 parte di blu ogni 4 parti di giallo. Può correggere la miscela aggiungendo soltanto giallo.",
+      fixedName:"blu", addName:"giallo", fixed:3, initial:5, p:1, q:4,
+      targetName:"Verde", max:12,
+      solution:"Indichiamo con x le parti di giallo da aggiungere. Il rapporto blu/giallo deve diventare 1/4."
+    },
+    {
+      title:"Esercizio 2 – L'arancione del tramonto",
+      story:"Un artista ha preparato un arancione con 4 parti di rosso e 2 parti di giallo. La ricetta del campione richiede 2 parti di rosso ogni 3 parti di giallo. Può correggere la miscela aggiungendo soltanto giallo.",
+      fixedName:"rosso", addName:"giallo", fixed:4, initial:2, p:2, q:3,
+      targetName:"Arancione", max:10,
+      solution:"Indichiamo con x le parti di giallo da aggiungere. Il rapporto rosso/giallo deve diventare 2/3."
+    },
+    {
+      title:"Esercizio 3 – Il viola dei fiori",
+      story:"Un'artista ha preparato un viola con 3 parti di blu e 2 parti di rosso. La ricetta del campione richiede 3 parti di blu ogni 5 parti di rosso. Può correggere la miscela aggiungendo soltanto rosso.",
+      fixedName:"blu", addName:"rosso", fixed:3, initial:2, p:3, q:5,
+      targetName:"Viola", max:8,
+      solution:"Indichiamo con x le parti di rosso da aggiungere. Il rapporto blu/rosso deve diventare 3/5."
+    }
+  ];
+
+  const $ = id => document.getElementById(id);
+  let current = 0;
+  const slider=$("slider"), amount=$("amount");
+
+  function reflectance(ks) {
+    return 1 + ks - Math.sqrt(ks*ks + 2*ks);
+  }
+  function srgb(v) {
+    v=Math.max(0,Math.min(1,v));
+    return Math.round(255*(v<=0.0031308 ? 12.92*v : 1.055*Math.pow(v,1/2.4)-0.055));
+  }
+  function colorOf(aName,a,bName,b) {
+    const A=pigment[aName].ks, B=pigment[bName].ks, total=a+b;
+    const rgb=[0,1,2].map(i=>{
+      const ks=(a*A[i]+b*B[i])/total;
+      return srgb(reflectance(ks));
+    });
+    return `rgb(${rgb.join(",")})`;
+  }
+  function fmt(n) {
+    return Number(n.toFixed(2)).toLocaleString("it-IT",{maximumFractionDigits:2});
+  }
+  function gcd(a,b){return b===0?a:gcd(b,a%b);}
+  function frac(a,b){
+    const d=gcd(a,b); return `${a/d}/${b/d}`;
+  }
+  function exactSolution(e){return (e.fixed*e.q/e.p)-e.initial;}
+
+  function renderExercise() {
+    const e=exercises[current];
+    document.querySelectorAll("[data-ex]").forEach(btn=>{
+      btn.setAttribute("aria-pressed",String(Number(btn.dataset.ex)===current));
+    });
+    $("exerciseTitle").textContent=e.title;
+    $("story").textContent=e.story;
+    $("equation").innerHTML=`<strong>${e.fixed} / (${e.initial} + x) = ${e.p} / ${e.q}</strong>`;
+    $("targetRecipe").textContent=`Ricetta: ${e.p} ${pigment[e.fixedName].label.toLowerCase()} ogni ${e.q} ${pigment[e.addName].label.toLowerCase()}`;
+    $("addedName").textContent=pigment[e.addName].label;
+    $("targetColor").style.background=colorOf(e.fixedName,e.p,e.addName,e.q);
+    $("addedColor").style.background=colorOf(e.addName,1,e.addName,1);
+    slider.max=e.max; slider.step="0.25"; amount.max=30; amount.step="0.25";
+    $("solution").hidden=true;
+    update(0);
+  }
+
+  function update(value) {
+    const e=exercises[current];
+    let x=Number(value);
+    if(!Number.isFinite(x)||x<0)x=0;
+    x=Math.min(30,x);
+    slider.value=Math.min(e.max,x);
+    amount.value=x;
+    const total=e.initial+x;
+    const ratio=e.fixed/total;
+    $("mixColor").style.background=colorOf(e.fixedName,e.fixed,e.addName,total);
+    $("mixRecipe").textContent=`${e.fixed} ${pigment[e.fixedName].label.toLowerCase()} + ${fmt(total)} ${pigment[e.addName].label.toLowerCase()}`;
+    $("ratio").textContent=`Rapporto attuale ${pigment[e.fixedName].label.toLowerCase()}/${pigment[e.addName].label.toLowerCase()}: ${e.fixed}/${fmt(total)} = ${fmt(ratio)}`;
+    const target=e.p/e.q, diff=Math.abs(ratio-target);
+    const feedback=$("feedback");
+    if(diff<1e-8){
+      feedback.className="status ok";
+      feedback.textContent="Perfetto! Hai raggiunto il rapporto richiesto: i due campioni coincidono.";
+    } else if(diff<0.035){
+      feedback.className="status near";
+      feedback.textContent="Ci sei quasi: il rapporto è molto vicino a quello richiesto.";
+    } else if(ratio>target){
+      feedback.className="status off";
+      feedback.textContent=`C'è ancora troppo ${pigment[e.fixedName].label.toLowerCase()} rispetto al ${pigment[e.addName].label.toLowerCase()}: aggiungine altro.`;
+    } else {
+      feedback.className="status off";
+      feedback.textContent="Hai superato la quantità necessaria: riduci un po' il pigmento aggiunto.";
+    }
+  }
+
+  function showSolution(){
+    const e=exercises[current], x=exactSolution(e);
+    $("solutionText").textContent=e.solution;
+    $("solutionEquation").innerHTML=`${e.fixed}/(${e.initial}+x) = ${e.p}/${e.q}<br>${e.fixed} · ${e.q} = ${e.p} · (${e.initial}+x)<br>${e.fixed*e.q} = ${e.p*e.initial} + ${e.p}x<br><strong>x = ${fmt(x)}</strong>`;
+    $("solutionConclusion").textContent=`Bisogna aggiungere ${fmt(x)} parti di ${pigment[e.addName].label.toLowerCase()}. La soluzione è positiva e quindi è compatibile con la richiesta.`;
+    $("solution").hidden=false;
+  }
+
+  document.querySelectorAll("[data-ex]").forEach(btn=>btn.addEventListener("click",()=>{
+    current=Number(btn.dataset.ex); renderExercise();
+  }));
+  slider.addEventListener("input",()=>update(slider.value));
+  amount.addEventListener("input",()=>update(amount.value));
+  $("solutionBtn").addEventListener("click",showSolution);
+  $("resetBtn").addEventListener("click",()=>{ $("solution").hidden=true; update(0); });
+  renderExercise();
+})();
+</script>
+</body>
+</html>

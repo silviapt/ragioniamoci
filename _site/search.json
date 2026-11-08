@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Ragioniamoci!",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "Questo è un sito per condividere attività matematiche."
   },
   {
     "objectID": "presentazioni/EsperimentiMentali.html",
@@ -283,106 +283,106 @@
     "objectID": "presentazioni/DisequazioneFratta.html#un-esempio-di-disequazione-fratta",
     "href": "presentazioni/DisequazioneFratta.html#un-esempio-di-disequazione-fratta",
     "title": "Disequazioni fratte",
-    "section": "",
-    "text": "\\frac{x^2+4x+4}{12x-4-9x^2}\\geq 0\ncon un piccolo aggiustamento diventa\n\\frac{x^2+4x+4}{-9x^2+12x-4}\\geq 0\ncosì entrambe i polinomi di secondo grado diventano del tipo ax^2+bx+c."
+    "section": "Un esempio di disequazione fratta",
+    "text": "Un esempio di disequazione fratta\n\\[\\frac{x^2+4x+4}{12x-4-9x^2}\\geq 0\\]\ncon un piccolo aggiustamento diventa\n\\[\\frac{x^2+4x+4}{-9x^2+12x-4}\\geq 0\\]\ncosì entrambe i polinomi di secondo grado diventano del tipo \\(ax^2+bx+c\\)."
   },
   {
     "objectID": "presentazioni/DisequazioneFratta.html#prima-di-tutto-il-c.e.",
     "href": "presentazioni/DisequazioneFratta.html#prima-di-tutto-il-c.e.",
     "title": "Disequazioni fratte",
     "section": "Prima di tutto il C.E.",
-    "text": "Prima di tutto il C.E.\nQuindi studiamo il denominatore:\n-9x^2+12x-4\\neq 0 \\rightarrow -(9x^2-12x+4) \\neq 0\nche è l’opposto del quadrato: -(3x-2)^2 \\neq 0\nQuindi perché il denominatore non sia 0, x \\neq \\frac{2}{3}\nSi sta parlando di equazioni, non di disequazioni, togliere il - (moltiplicare per -1) è concesso."
+    "text": "Prima di tutto il C.E.\nQuindi studiamo il denominatore:\n\\(-9x^2+12x-4\\neq 0 \\rightarrow -(9x^2-12x+4) \\neq 0\\)\nche è l’opposto del quadrato: \\[-(3x-2)^2 \\neq 0\\]\nQuindi perché il denominatore non sia 0, \\(x \\neq \\frac{2}{3}\\)\nSi sta parlando di equazioni, non di disequazioni, togliere il - (moltiplicare per -1) è concesso."
   },
   {
     "objectID": "presentazioni/DisequazioneFratta.html#e-se-non-me-ne-accorgo-che-è-un-quadrato",
     "href": "presentazioni/DisequazioneFratta.html#e-se-non-me-ne-accorgo-che-è-un-quadrato",
     "title": "Disequazioni fratte",
     "section": "…e se non me ne accorgo, che è un quadrato?",
-    "text": "…e se non me ne accorgo, che è un quadrato?\nCalcolo il discriminante: b^2-4ac= 12^2 -4 \\cdot(-9) \\cdot(-4) = 144 - 144 = 0\nLe soluzioni sono due coincidenti. x_{1,2} \\neq \\frac{12 \\pm 0}{2 \\cdot (-9)} \\neq \\frac{12}{-18} \\neq-\\frac{2}{3}"
+    "text": "…e se non me ne accorgo, che è un quadrato?\nCalcolo il discriminante: \\[b^2-4ac= 12^2 -4 \\cdot(-9) \\cdot(-4) = 144 - 144 = 0\\]\nLe soluzioni sono due coincidenti. \\[x_{1,2} \\neq \\frac{12 \\pm 0}{2 \\cdot (-9)} \\neq \\frac{12}{-18} \\neq-\\frac{2}{3}\\]"
   },
   {
     "objectID": "presentazioni/DisequazioneFratta.html#studio-numeratore-e-denominatore",
     "href": "presentazioni/DisequazioneFratta.html#studio-numeratore-e-denominatore",
     "title": "Disequazioni fratte",
     "section": "Studio numeratore e denominatore",
-    "text": "Studio numeratore e denominatore\nCominciamo col denominatore.\nLa parabola è “triste” e raggiunge lo 0 nell’unico punto x=-\\frac{2}{3}.\nQuindi il polinomio, eccetto in -\\frac{2}{3}, è sempre negativo."
+    "text": "Studio numeratore e denominatore\nCominciamo col denominatore.\nLa parabola è “triste” e raggiunge lo 0 nell’unico punto \\(x=-\\frac{2}{3}\\).\nQuindi il polinomio, eccetto in \\(-\\frac{2}{3}\\), è sempre negativo."
   },
   {
     "objectID": "presentazioni/DisequazioneFratta.html#la-parabola-al-denominatore",
     "href": "presentazioni/DisequazioneFratta.html#la-parabola-al-denominatore",
     "title": "Disequazioni fratte",
     "section": "La parabola al denominatore",
-    "text": "La parabola al denominatore\n\n\n\nDenominatore"
+    "text": "La parabola al denominatore\n\nDenominatore"
   },
   {
     "objectID": "presentazioni/DisequazioneFratta.html#il-numeratore",
     "href": "presentazioni/DisequazioneFratta.html#il-numeratore",
     "title": "Disequazioni fratte",
     "section": "Il numeratore",
-    "text": "Il numeratore\nPassiamo al numeratore\nx^2+4x+4 &gt;0 (x+2)^2 &gt;0\nQuesto polinomio è sempre maggiore di 0, tranne per x+2 = 0, cioè x=-2, dove il polinomio è uguale a 0."
+    "text": "Il numeratore\nPassiamo al numeratore\n\\[x^2+4x+4 &gt;0\\] \\[(x+2)^2 &gt;0\\]\nQuesto polinomio è sempre maggiore di 0, tranne per \\(x+2 = 0\\), cioè \\(x=-2\\), dove il polinomio è uguale a 0."
   },
   {
     "objectID": "presentazioni/DisequazioneFratta.html#e-se-non-me-ne-accorgo",
     "href": "presentazioni/DisequazioneFratta.html#e-se-non-me-ne-accorgo",
     "title": "Disequazioni fratte",
     "section": "…e se non me ne accorgo?",
-    "text": "…e se non me ne accorgo?\nCerco gli 0 dell’equazione corrispondente:\nx^2+4x+4 = 0 Calcolo il discriminante: b^2-4ac= 4^2 -4 \\cdot 4 \\cdot 1 =16-16=0\nLe soluzioni sono due coincidenti. La parabola è “allegra”, quindi rimane sempre positiva, tranne per: x= \\frac{-4  \\pm 0}{2 \\cdot 1} =\\frac{-4}{2}=-2"
+    "text": "…e se non me ne accorgo?\nCerco gli 0 dell’equazione corrispondente:\n\\[x^2+4x+4 = 0\\] Calcolo il discriminante: \\[b^2-4ac= 4^2 -4 \\cdot 4 \\cdot 1 =16-16=0\\]\nLe soluzioni sono due coincidenti. La parabola è “allegra”, quindi rimane sempre positiva, tranne per: \\[x= \\frac{-4  \\pm 0}{2 \\cdot 1} =\\frac{-4}{2}=-2\\]"
   },
   {
     "objectID": "presentazioni/DisequazioneFratta.html#la-parabola-al-numeratore",
     "href": "presentazioni/DisequazioneFratta.html#la-parabola-al-numeratore",
     "title": "Disequazioni fratte",
     "section": "La parabola al numeratore",
-    "text": "La parabola al numeratore\n\n\n\nNumeratore"
+    "text": "La parabola al numeratore\n\nNumeratore"
   },
   {
     "objectID": "presentazioni/DisequazioneFratta.html#mettiamo-tutto-insieme",
     "href": "presentazioni/DisequazioneFratta.html#mettiamo-tutto-insieme",
     "title": "Disequazioni fratte",
     "section": "Mettiamo tutto insieme",
-    "text": "Mettiamo tutto insieme\n\n\n\nSchema\n\n\nLa frazione algebrica è sempre negativa, tranne che in x=-2 dove è uguale a 0! In \\frac{2}{3} non è definita."
+    "text": "Mettiamo tutto insieme\n\nSchemaLa frazione algebrica è sempre negativa, tranne che in \\(x=-2\\) dove è uguale a 0! In \\(\\frac{2}{3}\\) non è definita."
   },
   {
     "objectID": "presentazioni/DisequazioneFratta.html#la-soluzione-alla-fine",
     "href": "presentazioni/DisequazioneFratta.html#la-soluzione-alla-fine",
     "title": "Disequazioni fratte",
     "section": "…la soluzione alla fine!",
-    "text": "…la soluzione alla fine!\n\\frac{x^2+4x+4}{12x-4-9x^2}\\geq 0\nè soddisfatta solo quando è uguale a 0, cioè per\nx = -2"
+    "text": "…la soluzione alla fine!\n\\[\\frac{x^2+4x+4}{12x-4-9x^2}\\geq 0\\]\nè soddisfatta solo quando è uguale a 0, cioè per\n\\[x = -2\\]"
   },
   {
     "objectID": "presentazioni/DisequazioneFratta.html#prima-di-tutto-il-c.e.-1",
     "href": "presentazioni/DisequazioneFratta.html#prima-di-tutto-il-c.e.-1",
     "title": "Disequazioni fratte",
     "section": "Prima di tutto il C.E.",
-    "text": "Prima di tutto il C.E.\nx^2-9\\neq 0\nquindi x^2 \\neq 9   x \\neq \\pm \\sqrt{9} x \\neq \\pm 3"
+    "text": "Prima di tutto il C.E.\n\\[x^2-9\\neq 0\\]\nquindi \\[x^2 \\neq 9 \\] \\[ x \\neq \\pm \\sqrt{9}\\] \\[x \\neq \\pm 3\\]"
   },
   {
     "objectID": "presentazioni/DisequazioneFratta.html#studio-il-denominatore",
     "href": "presentazioni/DisequazioneFratta.html#studio-il-denominatore",
     "title": "Disequazioni fratte",
     "section": "Studio il denominatore",
-    "text": "Studio il denominatore\nConsiderando che il denominatore è x^2-9 &gt; 0\n\na =1 &gt;0 (la parabola è allegra, ha la concavità rivolta verso il basso)\npassa per y=0 nei punti x=-3 e x=3 la posso disegnare così\n\n. . .\n\n\n\nBozzetto"
+    "text": "Studio il denominatore\nConsiderando che il denominatore è \\(x^2-9 &gt; 0\\)\n\n\\(a =1 &gt;0\\) (la parabola è allegra, ha la concavità rivolta verso il basso)\npassa per \\(y=0\\) nei punti \\(x=-3\\) e \\(x=3\\) la posso disegnare così\n\n\n\n\n\nBozzetto"
   },
   {
     "objectID": "presentazioni/DisequazioneFratta.html#la-parabola-al-denominatore-1",
     "href": "presentazioni/DisequazioneFratta.html#la-parabola-al-denominatore-1",
     "title": "Disequazioni fratte",
     "section": "La parabola al denominatore",
-    "text": "La parabola al denominatore\n\na = 1\nb = 0\nc = -9\nsegno = \"P(x) &gt; 0\"\n// Calcolo della funzione e dei punti di intersezione\nf = (x) =&gt; a * x**2 + b * x + c;\n\n// Generazione dati per la curva\ndata = {\n  const points = [];\n  for (let x = -10; x &lt;= 10; x += 0.1) {\n    points.push({x: x, y: f(x)});\n  }\n  return points;\n}\n\n// Calcolo discriminante e radici per evidenziare i punti sull'asse x\ndelta = b**2 - 4 * a * c;\nroots = {\n  if (delta &lt; 0) return [];\n  if (delta === 0) return [-b / (2 * a)];\n  return [(-b - Math.sqrt(delta)) / (2 * a), (-b + Math.sqrt(delta)) / (2 * a)];\n}\n\n// Logica per determinare la soluzione sull'asse x\n// Creiamo un array di segmenti spessi per l'asse X\nsolutionSegments = {\n  const step = 0.05;\n  const sol = [];\n  for (let x = -10; x &lt;= 10; x += step) {\n    const val = f(x);\n    const satisfies = (segno === \"P(x) &gt; 0\") ? val &gt; 0 : val &lt; 0;\n    if (satisfies) {\n      sol.push({x: x, y: 0});\n    }\n  }\n  return sol;\n}\n\nPlot.plot({\n  grid: true,\n  x: {domain: [-7, 7]},\n  y: {domain: [-10, 10]},\n  marks: [\n    // Area Gialla (Semipiano risolutivo)\n    Plot.areaY(data, {\n      x: \"x\", \n      y: \"y\", \n      fill: \"yellow\", \n      fillOpacity: 0.3,\n      // Filtra l'area in base al segno scelto\n      filter: d =&gt; (segno === \"P(x) &gt; 0\" ? d.y &gt; 0 : d.y &lt; 0)\n    }),\n\n    // Asse X (linea base)\n    Plot.ruleY([0]),\n    Plot.ruleX([0]),\n\n    // Tratto SPESSO sull'asse X per la soluzione\n    Plot.dot(solutionSegments, {x: \"x\", y: \"y\", r: 2, fill: \"red\"}),\n\n    // La Parabola\n    Plot.line(data, {x: \"x\", y: \"y\", strokeWidth: 2, stroke: \"blue\"}),\n\n    // Punti di intersezione (Radici)\n    Plot.dot(roots, {x: d =&gt; d, y: 0, r: 5, fill: \"black\", stroke: \"white\"}),\n    \n    // Testo per le radici\n    Plot.text(roots, {x: d =&gt; d, y: 0, text: d =&gt; d.toFixed(2), dy: -15})\n  ]\n})\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nI valori di x per cui x^2-9&gt;0 sono: x &lt; -3 \\vee x &gt; 3"
+    "text": "La parabola al denominatore\n\na = 1\nb = 0\nc = -9\nsegno = \"P(x) &gt; 0\"\n// Calcolo della funzione e dei punti di intersezione\nf = (x) =&gt; a * x**2 + b * x + c;\n\n// Generazione dati per la curva\ndata = {\n  const points = [];\n  for (let x = -10; x &lt;= 10; x += 0.1) {\n    points.push({x: x, y: f(x)});\n  }\n  return points;\n}\n\n// Calcolo discriminante e radici per evidenziare i punti sull'asse x\ndelta = b**2 - 4 * a * c;\nroots = {\n  if (delta &lt; 0) return [];\n  if (delta === 0) return [-b / (2 * a)];\n  return [(-b - Math.sqrt(delta)) / (2 * a), (-b + Math.sqrt(delta)) / (2 * a)];\n}\n\n// Logica per determinare la soluzione sull'asse x\n// Creiamo un array di segmenti spessi per l'asse X\nsolutionSegments = {\n  const step = 0.05;\n  const sol = [];\n  for (let x = -10; x &lt;= 10; x += step) {\n    const val = f(x);\n    const satisfies = (segno === \"P(x) &gt; 0\") ? val &gt; 0 : val &lt; 0;\n    if (satisfies) {\n      sol.push({x: x, y: 0});\n    }\n  }\n  return sol;\n}\n\nPlot.plot({\n  grid: true,\n  x: {domain: [-7, 7]},\n  y: {domain: [-10, 10]},\n  marks: [\n    // Area Gialla (Semipiano risolutivo)\n    Plot.areaY(data, {\n      x: \"x\", \n      y: \"y\", \n      fill: \"yellow\", \n      fillOpacity: 0.3,\n      // Filtra l'area in base al segno scelto\n      filter: d =&gt; (segno === \"P(x) &gt; 0\" ? d.y &gt; 0 : d.y &lt; 0)\n    }),\n\n    // Asse X (linea base)\n    Plot.ruleY([0]),\n    Plot.ruleX([0]),\n\n    // Tratto SPESSO sull'asse X per la soluzione\n    Plot.dot(solutionSegments, {x: \"x\", y: \"y\", r: 2, fill: \"red\"}),\n\n    // La Parabola\n    Plot.line(data, {x: \"x\", y: \"y\", strokeWidth: 2, stroke: \"blue\"}),\n\n    // Punti di intersezione (Radici)\n    Plot.dot(roots, {x: d =&gt; d, y: 0, r: 5, fill: \"black\", stroke: \"white\"}),\n    \n    // Testo per le radici\n    Plot.text(roots, {x: d =&gt; d, y: 0, text: d =&gt; d.toFixed(2), dy: -15})\n  ]\n})\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nI valori di x per cui \\(x^2-9&gt;0\\) sono: \\[x &lt; -3 \\vee x &gt; 3\\]"
   },
   {
     "objectID": "presentazioni/DisequazioneFratta.html#studio-il-numeratore",
     "href": "presentazioni/DisequazioneFratta.html#studio-il-numeratore",
     "title": "Disequazioni fratte",
     "section": "Studio il numeratore",
-    "text": "Studio il numeratore\nStudio l’equazione associata, x^2-3x+5 = 0: \\Delta = b^2-4ac = (-3)^2-4 \\cdot 1 \\cdot 5 &lt;0\nLa parabola associata non incontra mai l’asse x! Poiché a&gt;0, il polinomio è sempre positivo.\n\n\n\nAltro bozzetto"
+    "text": "Studio il numeratore\nStudio l’equazione associata, \\(x^2-3x+5 = 0\\): \\[\\Delta = b^2-4ac = (-3)^2-4 \\cdot 1 \\cdot 5 &lt;0\\]\nLa parabola associata non incontra mai l’asse x! Poiché \\(a&gt;0\\), il polinomio è sempre positivo.\n\nAltro bozzetto"
   },
   {
     "objectID": "presentazioni/DisequazioneFratta.html#metto-tutto-insieme",
     "href": "presentazioni/DisequazioneFratta.html#metto-tutto-insieme",
     "title": "Disequazioni fratte",
     "section": "Metto tutto insieme",
-    "text": "Metto tutto insieme\n\n\n\nStudio dei segni\n\n\nLa frazione è positiva per x&lt;-3 \\vee x&gt;3"
+    "text": "Metto tutto insieme\n\nStudio dei segniLa frazione è positiva per \\[x&lt;-3 \\vee x&gt;3\\]"
   },
   {
     "objectID": "presentazioni/SezioneAurea.html",
@@ -509,5 +509,128 @@
     "title": "Ripasso I",
     "section": "Vero o falso? Non svolgete tutto: trovate l’errore.",
     "text": "Vero o falso? Non svolgete tutto: trovate l’errore.\n\n(2x+3)^2=4x^2+9\n\ne\n\n(x+2)(x-2)=x^2+4"
+  },
+  {
+    "objectID": "schemi/Equa.html",
+    "href": "schemi/Equa.html",
+    "title": "Equazioni di I grado",
+    "section": "",
+    "text": "L’obiettivo finale è ridurre qualsiasi equazione nella Forma Normale: ax=b",
+    "crumbs": [
+      "Schemi",
+      "Equazioni di I grado"
+    ]
+  },
+  {
+    "objectID": "schemi/Equa.html#fase-1-gestire-le-parentesi",
+    "href": "schemi/Equa.html#fase-1-gestire-le-parentesi",
+    "title": "Equazioni di I grado",
+    "section": "🛑 FASE 1: GESTIRE LE PARENTESI",
+    "text": "🛑 FASE 1: GESTIRE LE PARENTESI\n\n🧐 1. Prima guarda dentro\nSe ci sono termini simili dentro le parentesi, sommali subito prima di fare altro.\nEsempio: 2x+(3x−5+1) \\rightarrow 2x+(3x−4)\n\n\n\n\n\n\nImportante\n\n\n\nRicorda, si agisce prima sulle parentesi più interne (), poi via via più esterne [], {}, …\n\n\n\n\n2. Cosa c’è davanti?\nPoi applica la regola corretta in base a cosa c’è davanti alla parentesi:\n\n\n\n\n\n\n\n\nSe davanti trovi…\nCosa devi fare?\nEsempio Pratico\n\n\n\n\n➕ (oppure nulla)\nTogli semplicemente le parentesi.\n2x+(4x−1)\\rightarrow 2x+4x−1\n\n\n➖\nTogli le parentesi e cambia segno a tutti i termini interni.\n2x−(4x−1) \\rightarrow 2x−4x+1\n\n\nNumero n\nMoltiplica ogni termine interno per il numero (attenzione al segno!).\n-3(2x−1)→−6x+3\n\n\nDue parentesi (a)(b)\nMoltiplica i termini a due a due, poi semplifica.\n(3x−4)(2x−1) \\rightarrow 6x^2−3x−8x+4\n\n\n\n\n\n\n\n\n\nScorciatoie Visive: I Prodotti Notevoli\n\n\n\nSomma per Differenza: (A+B)(A−B)=A^2−B^2\nEsempio: (3x−1)(3x+1)\\rightarrow 9x^2−1\nQuadrato di un Binomio: (A \\pm B)^2=A^2 \\pm 2AB+B^2\nEsempio: (2x−3)^2 \\rightarrow 4x^2−12x+9",
+    "crumbs": [
+      "Schemi",
+      "Equazioni di I grado"
+    ]
+  },
+  {
+    "objectID": "schemi/Equa.html#fase-2-eliminare-i-denominatori-se-presenti",
+    "href": "schemi/Equa.html#fase-2-eliminare-i-denominatori-se-presenti",
+    "title": "Equazioni di I grado",
+    "section": "➗ FASE 2: ELIMINARE I DENOMINATORI (Se presenti)",
+    "text": "➗ FASE 2: ELIMINARE I DENOMINATORI (Se presenti)\nNon lavorare con le frazioni! Trasforma l’equazione in numeri interi così:\n\n\n\n\n\n\n\nflowchart TD\n A[Trova il m.c.m. \n di TUTTI i denominatori] --&gt; B[Riduci tutte le frazioni \n a quel denominatore] \n B --&gt; C[Moltiplica a destra e sinistra] \n C--&gt;D[Semplifica e Cancella]\n\n\n\n\n\n\n\nEsempio:\n\n\\frac{3x−1}{3}​=\\frac{x}{4}​−2 🧐 \\frac{3x−1}{3}​=\\frac{x}{4}​−\\frac{2}{\\color{lightgray}1}\nm.c.m. (3, 4, 1) = 12\nTrasforma in: \\frac{^{12:3 \\searrow}  4(x−1)}{12}​= \\frac{^{12:4 \\searrow} 3x−^{12:1 \\searrow} 12 \\cdot 2}{12}​\nMoltiplica per 12 entrambi i lati ed eliminalo: 12 \\cdot \\frac{4(x−1)}{12}=\\frac{3x−24}{12} \\cdot 12\nEliminalo: 4(x-1)= 3x-12",
+    "crumbs": [
+      "Schemi",
+      "Equazioni di I grado"
+    ]
+  },
+  {
+    "objectID": "schemi/Equa.html#fase-3-sposta-e-risolvi-la-volata-finale",
+    "href": "schemi/Equa.html#fase-3-sposta-e-risolvi-la-volata-finale",
+    "title": "Equazioni di I grado",
+    "section": "🏁 FASE 3: SPOSTA E RISOLVI (La Volata Finale)",
+    "text": "🏁 FASE 3: SPOSTA E RISOLVI (La Volata Finale)\n\n🪓 1. Semplifica il superfluo\nDallo stesso lato (stesso membro): cancella i monomi opposti (es.: con coefficienti +5 e −5).\nAi lati opposti dell’uguale: cancella i monomi identici (con coefficiente 2 a sinistra e 2 a destra).\n\n\n🔄 2. Regola del Trasporto\nSposta tutte le x a SINISTRA e tutti i numeri a DESTRA.\n⚠️ ATTENZIONE: Quando un termine salta l’uguale, CAMBIA SEGNO! 2x{\\color{blue}−5}=8x+4 \\rightarrow 2x−8x=4{\\color{blue}+5}",
+    "crumbs": [
+      "Schemi",
+      "Equazioni di I grado"
+    ]
+  },
+  {
+    "objectID": "schemi/Equa.html#somma-e-isola-la-x",
+    "href": "schemi/Equa.html#somma-e-isola-la-x",
+    "title": "Equazioni di I grado",
+    "section": "🧮 3. Somma e Isola la x",
+    "text": "🧮 3. Somma e Isola la x\nSomma i termini simili per ottenere ax=b. Poi dividi: x=\\frac{a}{b}​",
+    "crumbs": [
+      "Schemi",
+      "Equazioni di I grado"
+    ]
+  },
+  {
+    "objectID": "schemi/Equa.html#il-verdetto-finale-di-che-tipo-è",
+    "href": "schemi/Equa.html#il-verdetto-finale-di-che-tipo-è",
+    "title": "Equazioni di I grado",
+    "section": "🎯 IL VERDETTO FINALE: DI CHE TIPO È?",
+    "text": "🎯 IL VERDETTO FINALE: DI CHE TIPO È?\n\n\n\n\n\nflowchart TD\n  A[\"$$ax = b$$\"] --&gt; B[$$a \\neq 0$$]\n  B --&gt; D[\"$$x=\\frac{b}{a}$$\"]\n  D --&gt; I[**DETERMINATA**]\n  A --&gt; C[$$a =0$$]\n  C --&gt; E1[$$b=0$$]\n  E1 --&gt; F1[0x=0 ]\n  F1 --&gt; S1[\"♾️ \n  Infinite soluzioni\"]\n  S1 --&gt; G1[**INDETERMINATA**]\n  \n  C --&gt; E2[\"$$b \\neq 0$$\"]\n  E2 --&gt; F2[\"0x = numero\"]\n  F2 --&gt; S2[\"🕳️ \n  Nessuna soluzione\"]\n  S2 --&gt; G2[**IMPOSSIBILE**]\n\n\n\n\n\n\n\n// Funzione di utilità per disegnare un rettangolo standard\ndrawShape = (width, height, color) =&gt; {\n  const ctx = DOM.context2d(200, 150);\n  ctx.fillStyle = color;\n  ctx.fillRect(10, 10, width, height);\n  ctx.strokeStyle = \"black\";\n  ctx.lineWidth = 2;\n  ctx.strokeRect(10, 10, width, height);\n  return ctx.canvas;\n}\n//drawShape(160, 50, \"rgba(255, 0, 255, 0.3)\")",
+    "crumbs": [
+      "Schemi",
+      "Equazioni di I grado"
+    ]
+  },
+  {
+    "objectID": "schemi/DisIIgrado.html",
+    "href": "schemi/DisIIgrado.html",
+    "title": "Risolvere una disequazione di secondo grado",
+    "section": "",
+    "text": "Per studiare una disequazione di secondo grado, va prima trasformata nella forma normale: ax^2+bx+c \\gtreqless 0\nPer risolverla, dobbiamo per prima cosa verificare il segno del coefficiente a e calcolare il \\Delta=b^2-4ac e le eventuali soluzioni dell’equazione associata ax^2+bx+c=0.\n\n\n\n\n\n\n\n\n\n\n\na\n\\Delta\nsoluzioni eq. ass.\nP(x)&gt;0\nP(x)=0\nP(x)&lt;0\n\n\n\n\na&gt;0\n\\Delta&gt;0\n2(x_1, x_2)\nx&lt;x_1 \\vee x&gt;x_2\nx_1,x_2\nx_1&lt;x&lt;x_2\n\n\n\n\\Delta=0\n1(x_1)\n\\forall x \\in R-\\{x_1\\}\nx_1\n\\not\\exists x \\in R\n\n\n\n\\Delta&lt;0\n0\n\\forall x \\in R\n\\not\\exists x \\in R\n\\not\\exists x \\in  R\n\n\na&lt;0\n\\Delta&gt;0\n2(x_1, x_2)\nx_1&lt;x&lt;x_2\nx_1,x_2\nx&lt;x_1 \\vee x&gt;x_2\n\n\n\n\\Delta=0\n1(x_1)\n\\not\\exists x \\in  R\nx_1\n\\forall x \\in R-\\{x_1\\}\n\n\n\n\\Delta&lt;0\n0\n\\not\\exists x \\in   R\n\\not\\exists x \\in R\n\\forall x \\in R",
+    "crumbs": [
+      "Schemi",
+      "Risolvere una disequazione di secondo grado"
+    ]
+  },
+  {
+    "objectID": "schemi/DisIIgrado.html#disequazione-di-secondo-grado",
+    "href": "schemi/DisIIgrado.html#disequazione-di-secondo-grado",
+    "title": "Risolvere una disequazione di secondo grado",
+    "section": "",
+    "text": "Per studiare una disequazione di secondo grado, va prima trasformata nella forma normale: ax^2+bx+c \\gtreqless 0\nPer risolverla, dobbiamo per prima cosa verificare il segno del coefficiente a e calcolare il \\Delta=b^2-4ac e le eventuali soluzioni dell’equazione associata ax^2+bx+c=0.\n\n\n\n\n\n\n\n\n\n\n\na\n\\Delta\nsoluzioni eq. ass.\nP(x)&gt;0\nP(x)=0\nP(x)&lt;0\n\n\n\n\na&gt;0\n\\Delta&gt;0\n2(x_1, x_2)\nx&lt;x_1 \\vee x&gt;x_2\nx_1,x_2\nx_1&lt;x&lt;x_2\n\n\n\n\\Delta=0\n1(x_1)\n\\forall x \\in R-\\{x_1\\}\nx_1\n\\not\\exists x \\in R\n\n\n\n\\Delta&lt;0\n0\n\\forall x \\in R\n\\not\\exists x \\in R\n\\not\\exists x \\in  R\n\n\na&lt;0\n\\Delta&gt;0\n2(x_1, x_2)\nx_1&lt;x&lt;x_2\nx_1,x_2\nx&lt;x_1 \\vee x&gt;x_2\n\n\n\n\\Delta=0\n1(x_1)\n\\not\\exists x \\in  R\nx_1\n\\forall x \\in R-\\{x_1\\}\n\n\n\n\\Delta&lt;0\n0\n\\not\\exists x \\in   R\n\\not\\exists x \\in R\n\\forall x \\in R",
+    "crumbs": [
+      "Schemi",
+      "Risolvere una disequazione di secondo grado"
+    ]
+  },
+  {
+    "objectID": "presentazioni/LenteIngrandimento.html#esercizio-1",
+    "href": "presentazioni/LenteIngrandimento.html#esercizio-1",
+    "title": "Lente d’ingrandimento",
+    "section": "Esercizio 1",
+    "text": "Esercizio 1\n\n1. Primo Dettaglio\n\\[ 2a^3 \\dots \\] Che informazioni ti dà questo termine iniziale?\n\n\n2. Secondo Dettaglio\n\\[ 2a^3 - 8ab^2 \\dots \\] Vedi 2 termini e due lettere diverse. Cosa puoi iniziare a escludere?\n\n\n3. Quadro Completo\n\\[ 2a^3 - 8ab^2 \\]\n\nScomposizione: \\[ 2a(a^2 - 4b^2) = 2a(a - 2b)(a + 2b) \\]"
+  },
+  {
+    "objectID": "presentazioni/LenteIngrandimento.html#esercizio-2",
+    "href": "presentazioni/LenteIngrandimento.html#esercizio-2",
+    "title": "Lente d’ingrandimento",
+    "section": "Esercizio 2",
+    "text": "Esercizio 2\n\n1. Primo Dettaglio\n\\[ x^2 \\dots \\] È un quadrato perfetto. Quali strutture iniziano così?\n\n\n2. Secondo Dettaglio\n\\[ x^2 - 10xy \\dots \\] Il secondo termine è un doppio prodotto negative. Cosa ti aspetti come 3° termine?\n\n\n3. Quadro Completo\n\\[ x^2 - 10xy + 25y^2 \\]\n\nScomposizione: \\[ (x - 5y)^2 \\]"
+  },
+  {
+    "objectID": "presentazioni/LenteIngrandimento.html#esercizio-3",
+    "href": "presentazioni/LenteIngrandimento.html#esercizio-3",
+    "title": "Lente d’ingrandimento",
+    "section": "Esercizio 3",
+    "text": "Esercizio 3\n\n1. Primo Dettaglio\n\\[ 3x^3 \\dots \\] Non è un quadrato perfetto. Qual è la prima mossa probabile?\n\n\n2. Secondo Dettaglio\n\\[ 3x^3 - 12x^2 + 12x \\dots \\] Ci sono 3 termini e la \\(x\\) compare ovunque. Che fattore raccogli?\n\n\n3. Quadro Completo\n\\[ 3x^3 - 12x^2 + 12x \\]\n\nScomposizione: \\[ 3x(x^2 - 4x + 4) = 3x(x - 2)^2 \\]"
+  },
+  {
+    "objectID": "presentazioni/LenteIngrandimento.html#esercizio-4",
+    "href": "presentazioni/LenteIngrandimento.html#esercizio-4",
+    "title": "Lente d’ingrandimento",
+    "section": "Esercizio 4",
+    "text": "Esercizio 4\n\n1. Primo Dettaglio\n\\[ x^3 - 2x^2 \\dots \\] Riconosci un parziale tra i primi due?\n\n\n2. Secondo Dettaglio\n\\[ x^3 - 2x^2 - 9x + 18 \\dots \\] Quattro termini in totale. Che tecnica di raggruppamento si delinea?\n\n\n3. Quadro Completo\n\\[ x^3 - 2x^2 - 9x + 18 \\]\n\nScomposizione: \\[ x^2(x - 2) - 9(x - 2) = (x - 2)(x^2 - 9) = (x - 2)(x - 3)(x + 3) \\]"
+  },
+  {
+    "objectID": "presentazioni/LenteIngrandimento.html#diagnosticare-la-struttura-di-un-polinomio",
+    "href": "presentazioni/LenteIngrandimento.html#diagnosticare-la-struttura-di-un-polinomio",
+    "title": "Lente d’ingrandimento",
+    "section": "Diagnosticare la struttura di un polinomio",
+    "text": "Diagnosticare la struttura di un polinomio\nCome funziona:\n\n🔍 Dettaglio 1: Osserva il primo pezzo. Cosa ipotizzi?\n🔎 Dettaglio 2: Scopri un altro elemento. Cosa puoi escludere?\n🖼️ Quadro Completo: Conferma la struttura ed esegui la scomposizione."
   }
 ]

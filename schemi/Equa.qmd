@@ -1,0 +1,137 @@
+---
+title: "Equazioni di I grado"
+order: 10
+format: 
+  html:
+    mermaid:
+      theme: default     
+---
+
+L'obiettivo finale è ridurre qualsiasi equazione nella Forma Normale:
+$$ax=b$$
+
+
+
+## 🛑 FASE 1: GESTIRE LE PARENTESI 
+
+### 🧐 1. Prima guarda dentro 
+
+Se ci sono termini simili dentro le parentesi, sommali subito prima di fare altro.
+
+Esempio: $2x+(3x−5+1) \rightarrow 2x+(3x−4)$
+
+::: {.callout-important}
+Ricorda, si agisce prima sulle parentesi più interne (), poi via via più esterne [], {}, ...
+:::
+
+### 2. Cosa c'è davanti?
+
+Poi applica la regola corretta in base a cosa c'è *davanti* alla parentesi:
+
+|Se davanti trovi...	|Cosa devi fare?	|Esempio Pratico|
+|---------------------|-----------------|---------------|
+|➕ (oppure nulla)	|Togli semplicemente le parentesi.|	$2x+(4x−1)\rightarrow 2x+4x−1$|
+|➖	|Togli le parentesi e cambia segno a tutti i termini interni.	|$2x−(4x−1) \rightarrow 2x−4x+1$|
+|Numero n|	Moltiplica ogni termine interno per il numero (attenzione al segno!).|	$-3(2x−1)→−6x+3$|
+|Due parentesi (a)(b)	|Moltiplica i termini a due a due, poi semplifica.	|$(3x−4)(2x−1) \rightarrow 6x^2−3x−8x+4$|
+
+:::{.callout-tip title="Scorciatoie Visive: I Prodotti Notevoli"}
+
+Somma per Differenza: $$(A+B)(A−B)=A^2−B^2$$
+
+Esempio: $(3x−1)(3x+1)\rightarrow 9x^2−1$
+
+Quadrato di un Binomio: $$(A \pm B)^2=A^2 \pm 2AB+B^2$$
+
+Esempio: $(2x−3)^2 \rightarrow 4x^2−12x+9$
+:::
+## ➗ FASE 2: ELIMINARE I DENOMINATORI (Se presenti)
+
+Non lavorare con le frazioni! Trasforma l'equazione in numeri interi così:
+
+:::{.columns}
+
+:::{.column}
+
+```{mermaid}
+flowchart TD
+ A[Trova il m.c.m. 
+ di TUTTI i denominatori] --> B[Riduci tutte le frazioni 
+ a quel denominatore] 
+ B --> C[Moltiplica a destra e sinistra] 
+ C-->D[Semplifica e Cancella]
+```
+
+:::
+
+:::{.column}
+
+Esempio: 
+    
+- $\frac{3x−1}{3}​=\frac{x}{4}​−2$ 🧐 $\frac{3x−1}{3}​=\frac{x}{4}​−\frac{2}{\color{lightgray}1}$
+- m.c.m. (3, 4, 1) = 12
+- Trasforma in: $\frac{^{12:3 \searrow}  4(x−1)}{12}​= \frac{^{12:4 \searrow} 3x−^{12:1 \searrow} 12 \cdot 2}{12}​$
+- Moltiplica per 12 entrambi i lati ed eliminalo: $12 \cdot \frac{4(x−1)}{12}=\frac{3x−24}{12} \cdot 12$
+- Eliminalo: $4(x-1)= 3x-12$ 
+
+:::
+
+:::
+
+## 🏁 FASE 3: SPOSTA E RISOLVI (La Volata Finale)
+
+### 🪓 1. Semplifica il superfluo
+
+ Dallo stesso lato (**stesso membro**): cancella i **monomi opposti** (es.: con coefficienti +5 e −5).
+
+Ai **lati opposti** dell'uguale: cancella i **monomi identici** (con coefficiente 2 a sinistra e 2 a destra).
+
+### 🔄 2. Regola del Trasporto
+
+Sposta tutte le x a SINISTRA e tutti i numeri a DESTRA.
+
+⚠️ ATTENZIONE: Quando un termine salta l'uguale, CAMBIA SEGNO!
+$$2x{\color{blue}−5}=8x+4 \rightarrow 2x−8x=4{\color{blue}+5}$$
+
+## 🧮 3. Somma e Isola la x
+
+Somma i termini simili per ottenere $ax=b$. Poi dividi:
+$$x=\frac{a}{b}$$​
+
+## 🎯 IL VERDETTO FINALE: DI CHE TIPO È?
+
+```{mermaid}
+flowchart TD
+  A["$$ax = b$$"] --> B[$$a \neq 0$$]
+  B --> D["$$x=\frac{b}{a}$$"]
+  D --> I[**DETERMINATA**]
+  A --> C[$$a =0$$]
+  C --> E1[$$b=0$$]
+  E1 --> F1[0x=0 ]
+  F1 --> S1["♾️ 
+  Infinite soluzioni"]
+  S1 --> G1[**INDETERMINATA**]
+  
+  C --> E2["$$b \neq 0$$"]
+  E2 --> F2["0x = numero"]
+  F2 --> S2["🕳️ 
+  Nessuna soluzione"]
+  S2 --> G2[**IMPOSSIBILE**]
+```
+
+
+```{ojs}
+//| output: false
+// Funzione di utilità per disegnare un rettangolo standard
+drawShape = (width, height, color) => {
+  const ctx = DOM.context2d(200, 150);
+  ctx.fillStyle = color;
+  ctx.fillRect(10, 10, width, height);
+  ctx.strokeStyle = "black";
+  ctx.lineWidth = 2;
+  ctx.strokeRect(10, 10, width, height);
+  return ctx.canvas;
+}
+//drawShape(160, 50, "rgba(255, 0, 255, 0.3)")
+```
+

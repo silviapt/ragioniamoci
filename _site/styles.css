@@ -1,1 +1,35 @@
 /* css styles */
+@media print {
+    /* 1. Nasconde sidebar, header, footer e elementi di navigazione */
+    .navbar, 
+    .sidebar, 
+    .quarto-secondary-nav,
+    #quarto-margin-sidebar,
+    .nav-page,
+    footer {
+      display: none !important;
+    }
+  
+    /* 2. Rimuove i limiti di larghezza massima imposti da Quarto */
+    main.content,
+    #quarto-content,
+    .page-columns,
+    body {
+      max-width: 100% !important;
+      width: 100% !important;
+      margin: 0 !important;
+      padding: 0 !important;
+    }
+  
+    /* 3. Forza le tabelle a occupare tutta la larghezza disponibile */
+    table, .table {
+      width: 100% !important;
+      max-width: 100% !important;
+      table-layout: auto; /* Distribuisce le colonne in base al contenuto */
+    }
+  
+    /* 4. Evita che le tabelle o le righe vengano spezzate male tra due pagine */
+    table, tr, img, pre {
+      break-inside: avoid;
+    }
+  }
