@@ -20,7 +20,9 @@ website:
            - href: presentazioni/SezioneAurea.qmd
              target: _blank
       - text: Schemi
-        href: schemi/Equa.qmd   
+        href: schemi/Equa.qmd  
+      - text: Simulazioni 
+        href: simulazioni/laboratorio_dei_colori.html
   sidebar:
     - id: schemi-sidebar
       title: Schemi
