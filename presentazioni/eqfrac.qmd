@@ -1,0 +1,130 @@
+---
+title: "Equazione fratta"
+subtitle: "Liceo P. Petrocchi"
+format:
+  revealjs: 
+    slide-number: true
+    chalkboard: 
+      buttons: false
+    preview-links: auto
+    theme: league
+resources:
+  - demo.pdf
+---
+
+## Primo passo: condizioni di esistenza delle frazioni 
+
+
+$$\frac{2\left(x-1\right)}{x+2}=1$$
+
+## Primo passo: condizioni di esistenza delle frazioni 
+
+$$\frac{2\left(x-1\right)}{\color{#ff8c00}{x+2}}=1$$
+
+In questo caso c'è una sola frazione, quindi un solo denominatore. $x+2$ è già irriducibile.
+
+$$x+2 \neq 0$$
+
+## Primo passo: condizioni di esistenza delle frazioni 
+
+$$\frac{2\left(x-1\right)}{\color{#ff8c00}{x+2}}=1$$
+
+In questo caso c'è una sola frazione, quindi un solo denominatore. $x+2$ è già irriducibile.
+$$x+2 \neq 0$$
+
+$$x \neq -2$$
+
+## Secondo passo: metto tutto a sinistra
+
+$$\frac{2\left(x-1\right)}{x+2}=\color{#ff8c00}{1}$$
+
+## Secondo passo: metto tutto a sinistra
+
+$$\frac{2\left(x-1\right)}{x+2}=\color{#ff8c00}{1}$$
+$$\frac{2\left(x-1\right)}{x+2}\color{#ff8c00}{-1}=0$$
+
+Questo passaggio non è obbligatorio, ma voi fatelo sempre perché vi aiuterà quando farete le disequazioni.
+
+## Terzo passo: calcolo l'm.c.m. (1)
+
+$$\frac{2\left(x-1\right)}{x+2}-1=0$$
+
+
+## Terzo passo: calcolo l'm.c.m. (2)
+
+$$\frac{2\left(x-1\right)}{\color{#ff8c00}{x+2}}-\frac{1}{\color{#ff8c00}{1}}=0$$
+
+$$m.c.m.(x+2; 1) = x+2$$
+
+## Quarto passo: riduco allo stesso denominatore (1)
+
+$$\frac{2\left(x-1\right)}{x+2}-1=0$$
+
+::: {.r-stack}
+::: {.fragment .fade-in-then-out}
+Divido l'm.c.m per il primo denominatore e moltiplico per numeratore
+$$ \frac{\color{#ff8c00}{1} \cdot  2\left(x-1\right) - ...}{x+2} =0$$
+:::
+
+::: {.fragment .fade-in}
+Divido l'm.c.m per il secondo denominatore e moltiplico per numeratore
+$$\frac{1 \cdot 2\left(x-1\right)-1 \cdot \color{#ff8c00}{(x+2)}}{x+2}=0$$
+:::
+:::
+
+## Quarto passo: riduco allo stesso denominatore (2)
+$$\frac{2\left(x-1\right)-(x+2)}{x+2}=0$$
+
+## Quarto passo: riduco allo stesso denominatore (3)
+$$\frac{2\left(x-1\right)-(x+2)}{x+2}=0$$
+
+$$\frac{2x-2-x-2}{x+2}=0$$
+
+## Quarto passo: riduco allo stesso denominatore (4)
+$$\frac{2\left(x-1\right)-(x+2)}{x+2}=0$$
+
+$$\frac{2x-2-x-2}{x+2}=0$$
+
+$$\frac{(2-1)x-2-2}{x+2}=0$$
+
+## Quarto passo: riduco allo stesso denominatore (5)
+$$\frac{2\left(x-1\right)-(x+2)}{x+2}=0$$
+
+$$\frac{2x-2-x-2}{x+2}=0$$
+
+$$\frac{(2-1)x-2-2}{x+2}=0$$
+
+$$\frac{x-4}{x+2}=0$$
+
+## Quinto: il numeratore deve essere 0
+
+Potete vederla in due modi:
+
+1.  E' una frazione. Perché una frazione (cioè una divisione) faccia 0, il numeratore (quello che sta sopra, cioè il dividendo) deve essere 0.
+
+::: {.fragment .fade-in style="text-align: center; color: #ff8c00;" }
+Se *a* diviso *b*  è uguale a 0, per forza *a* è uguale a 0
+:::
+
+## Quinto: il numeratore deve essere 0
+
+Potete vederla in due modi:
+
+2. Usi il *Secondo principio di equivalenza*, se moltiplichi per un numero diverso da zero (in questo caso $x+2$ che è diverso da 0 per le condizioni di esistenza) l'equazione ottenute ha le stesse soluzioni di quelle di partenza (è *equivalente*).
+  $$\cancel{x+2} \frac{x-4}{\cancel{x+2}}= 0 \cdot (x+2) = 0$$
+
+
+## Quinto: il numeratore deve essere 0
+$$\frac{\color{#ff8c00}{x-4}}{x+2}=0$$
+
+$${x\color{#ff8c00}{-4}}=0$$
+
+$$x=\color{#ff8c00}{4}$$
+
+## Sesto: verifico soddisfi la C.E
+
+$$4 \neq -2 $$
+
+::: {.fragment .fade-up style="text-align: center; color: #ff8c00; font-size: 1.4em; font-weight: bold;"}
+✓ 4 è soluzione
+:::
