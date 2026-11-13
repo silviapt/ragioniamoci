@@ -4,12 +4,15 @@ subtitle: "Liceo P. Petrocchi"
 format:
   revealjs: 
     slide-number: true
+    touch: true
+    clickToAdvance: true
+    incremental: true  
+    controls: true
     chalkboard: 
       buttons: false
     preview-links: auto
     theme: league
-resources:
-  - demo.pdf
+    html-math-method: mathjax
 ---
 
 ## Primo passo: condizioni di esistenza delle frazioni 
@@ -63,12 +66,12 @@ $$\frac{2\left(x-1\right)}{x+2}-1=0$$
 ::: {.r-stack}
 ::: {.fragment .fade-in-then-out}
 Divido l'm.c.m per il primo denominatore e moltiplico per numeratore
-$$ \frac{\color{#ff8c00}{1} \cdot  2\left(x-1\right) - ...}{x+2} =0$$
+$$ \frac{{\color{#ff8c00}{1}} \cdot  2\left(x-1\right) - ...}{x+2} =0$$
 :::
 
 ::: {.fragment .fade-in}
 Divido l'm.c.m per il secondo denominatore e moltiplico per numeratore
-$$\frac{1 \cdot 2\left(x-1\right)-1 \cdot \color{#ff8c00}{(x+2)}}{x+2}=0$$
+$$\frac{1 \cdot 2\left(x-1\right)-  {\color{#ff8c00}{(x+2)}}\cdot 1}{x+2}=0$$
 :::
 :::
 
