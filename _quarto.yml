@@ -21,6 +21,8 @@ website:
              target: _blank
            - href: presentazioni/SezioneAurea.qmd
              target: _blank
+           - href: presentazioni/eqfrac.qmd
+             target: _blank
       - text: Schemi
         href: schemi/Equa.qmd  
       - text: Simulazioni 
